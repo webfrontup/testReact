@@ -5,6 +5,8 @@ import "./App.css";
 import axios from "axios";
 import Home from "./containers/Home";
 import PriceList from "./components/PriceList";
+import ViewTab from "./components/ViewTab";
+import { LIST_VIEW } from "./utility";
 
 const items = [
 	{
@@ -39,11 +41,15 @@ class App extends Component {
     return (
 		<div className="App">
 			{/* <Home/> */}
-			<PriceList
+			{/* <PriceList
 				items={items}
                 onModifyItem={(item) => {alert(item.id)}}
                 onDeleteItem={(item) => { alert(item.id) }}
-			/>
+            /> */}
+            <ViewTab
+                activeTab={LIST_VIEW}
+                onTabChange={(view)=>{console.log(view)}}
+            />
 		</div>
 	);
   }
