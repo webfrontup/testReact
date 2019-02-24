@@ -5,7 +5,7 @@ import ViewTab from "../components/ViewTab";
 import MonthPicker from "../components/MonthPicker";
 import CreateBtn from "../components/CreateBtn";
 import TotalPrice from "../components/TotalPrice";
-import { LIST_VIEW, CHART_VIEW, TYPE_INCOME, TYPE_OUTCOME, Colors, parseToYearAndMonth } from '../utility'
+import { LIST_VIEW, CHART_VIEW, TYPE_INCOME, TYPE_OUTCOME, Colors, parseToYearAndMonth, padLeft } from '../utility'
 
 const items = [
 	{
@@ -52,6 +52,14 @@ const categorys = {
 	}
 };
 
+const newItem = {
+    "id": 4,
+    "title": "新添加的项目",
+    "price": 300,
+    "date": "2018-10-10",
+    "cid": 1
+}
+
 class Home extends Component {
     constructor(props){
         super(props)
@@ -63,20 +71,37 @@ class Home extends Component {
 		};
     }
     changeView = (view) => {
-        console.log(view,'view')
+        this.setState({
+            tabView: view 
+        })
     }
     changeDate = (year, month) => {
-        console.log(year, month)
-        // this.props.actions.selectNewMonth(year, month)
+        this.setState({
+            currentDate: {year, month}
+        })
     }
-    modifyItem = () => {
-
+    modifyItem = (modifyItem) => {
+        const modifyItems = this.state.items.map(item => {
+            if(item.id === modifyItem.id) {
+                return { ...item, title: '更新后的标题'}
+            }else{
+                return item
+            }
+        })
+        this.setState({
+            items: modifyItems
+        })
     }
     createItem = () => {
-
+        this.setState({
+            items:[newItem, ...this.state.items]
+        })
     }
-    deleteItem = () => {
-
+    deleteItem = (deletedItem) => {
+        const filteredItems = this.state.items.filter(item => item.id !== deletedItem.id)
+        this.setState({
+            items: filteredItems
+        })
     }
 
 
@@ -85,6 +110,9 @@ class Home extends Component {
         const itemsWithCategory = items.map(item => {
             item.category = categorys[item.cid]
             return item
+        }).filter(item => {
+            // 必须满足年份和月份
+            return item.date.includes(`${currentDate.year}-${padLeft(currentDate.month)}`)
         })
         let totalIncome = 0, totalOutcome = 0;
         itemsWithCategory.forEach(item => {
@@ -126,11 +154,17 @@ class Home extends Component {
                         onTabChange={this.changeView}
 					/>
 					<CreateBtn onClick={this.createItem}/>
-					<PriceList
-                        items={items}
-                        onModifyItem={this.modifyItem}
-                        onDeleteItem={this.deleteItem}
-                    />
+                    { tabView === LIST_VIEW &&
+                        <PriceList
+                            items={itemsWithCategory}
+                            onModifyItem={this.modifyItem}
+                            onDeleteItem={this.deleteItem}
+                        />
+                    }
+                    { tabView === CHART_VIEW && 
+                        <h1>这里是图表区域</h1>
+                    }
+
 				</div>
 			</Fragment>
 		);
