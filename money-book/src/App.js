@@ -6,6 +6,7 @@ import axios from "axios";
 import Home from "./containers/Home";
 import PriceList from "./components/PriceList";
 import ViewTab from "./components/ViewTab";
+import MonthPicker from "./components/MonthPicker"
 import { LIST_VIEW } from "./utility";
 
 const items = [
@@ -37,6 +38,10 @@ const items = [
 
 
 class App extends Component {
+    changeDate = (year, month) => {
+        console.log(year,month)
+        // this.props.actions.selectNewMonth(year, month)
+    }
   render() {
     return (
 		<div className="App">
@@ -46,9 +51,14 @@ class App extends Component {
                 onModifyItem={(item) => {alert(item.id)}}
                 onDeleteItem={(item) => { alert(item.id) }}
             /> */}
-            <ViewTab
+            {/* <ViewTab
                 activeTab={LIST_VIEW}
                 onTabChange={(view)=>{console.log(view)}}
+            /> */}
+            <MonthPicker
+                year={2019}
+                month={3}
+                onChange={this.changeDate}
             />
 		</div>
 	);

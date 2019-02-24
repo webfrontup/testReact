@@ -1,4 +1,4 @@
-import React,{Component} from 'react'
+import React from 'react'
 import Ionicon from "react-ionicons";
 import PropTypes from 'prop-types'
 import { LIST_VIEW, CHART_VIEW } from "../utility";
