@@ -62,10 +62,23 @@ class Home extends Component {
 
 		};
     }
+    changeView = (view) => {
+        console.log(view,'view')
+    }
     changeDate = (year, month) => {
         console.log(year, month)
         // this.props.actions.selectNewMonth(year, month)
     }
+    modifyItem = () => {
+
+    }
+    createItem = () => {
+
+    }
+    deleteItem = () => {
+
+    }
+
 
     render(){
         const { items, currentDate, tabView} = this.state;
@@ -110,15 +123,13 @@ class Home extends Component {
 				<div className="content-area py-3 px-3">
 					<ViewTab
                         activeTab={tabView}
-						onTabChange={view => {
-							console.log(view);
-						}}
+                        onTabChange={this.changeView}
 					/>
-					<CreateBtn onClick={()=>{}}/>
+					<CreateBtn onClick={this.createItem}/>
 					<PriceList
                         items={items}
-                        onModifyItem={(item) => {alert(item.id)}}
-                        onDeleteItem={(item) => { alert(item.id) }}
+                        onModifyItem={this.modifyItem}
+                        onDeleteItem={this.deleteItem}
                     />
 				</div>
 			</Fragment>
