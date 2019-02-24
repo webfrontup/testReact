@@ -5,50 +5,82 @@ import ViewTab from "../components/ViewTab";
 import MonthPicker from "../components/MonthPicker";
 import CreateBtn from "../components/CreateBtn";
 import TotalPrice from "../components/TotalPrice";
-import { LIST_VIEW, CHART_VIEW, TYPE_INCOME, TYPE_OUTCOME, Colors } from '../utility'
+import { LIST_VIEW, CHART_VIEW, TYPE_INCOME, TYPE_OUTCOME, Colors, parseToYearAndMonth } from '../utility'
 
 const items = [
-    {
-        id: 1,
-        title: "aabbtravel",
-        price: 200,
+	{
+		id: 1,
+		title: "aabbtravel",
+		price: 200,
         date: "2018-09-10",
-        category: {
-            id: 1,
-            name: "travel",
-            type: "outcome",
-            iconName: "ios-plane"
-        }
-    },
-    {
-        id: 2,
-        title: "aabbtravel",
-        price: 2020,
+        "cid": 1,
+	},
+	{
+		id: 2,
+		title: "aabbtravel2",
+		price: 2020,
         date: "2018-09-10",
-        category: {
-            id: 1,
-            name: "travel",
-            type: "outcome",
-            iconName: "ios-plane"
-        }
-    }
+        "cid": 2,
+	},
+	{
+		id: 3,
+		title: "aabbtravel3",
+		price: 220,
+        date: "2018-09-10",
+        "cid": 3,
+	}
 ];
 
+const categorys = {
+	"1": {
+		id: "1",
+		name: "旅行",
+		type: "outcome",
+		iconName: "ios-plane"
+	},
+	"2": {
+		id: "2",
+		name: "理财",
+		type: "income",
+		iconName: "logo-yen"
+	},
+	"3": {
+		id: "3",
+		name: "travel",
+		type: "income",
+		iconName: "ios-plane"
+	}
+};
+
 class Home extends Component {
+    constructor(props){
+        super(props)
+        this.state = {
+			items,
+            currentDate: parseToYearAndMonth(),
+            tabView: LIST_VIEW,
+
+		};
+    }
     changeDate = (year, month) => {
         console.log(year, month)
         // this.props.actions.selectNewMonth(year, month)
     }
 
     render(){
-        let totalIncome = 0, totalOutcome = 0;
-        items.forEach(item => {
-            if(item.category.type === TYPE_OUTCOME){
-                totalOutcome += item.price
-            }else{
-                totalIncome += item.price
-            }
+        const { items, currentDate, tabView} = this.state;
+        const itemsWithCategory = items.map(item => {
+            item.category = categorys[item.cid]
+            return item
         })
+        let totalIncome = 0, totalOutcome = 0;
+        itemsWithCategory.forEach(item => {
+			if (item.category.type === TYPE_OUTCOME) {
+				totalOutcome += item.price;
+			} else {
+				totalIncome += item.price;
+			}
+		});
         return (
 			<Fragment>
 				<header className="App-header">
@@ -62,8 +94,8 @@ class Home extends Component {
 					<div className="row">
 						<div className="col">
 							<MonthPicker
-								year={2019}
-								month={3}
+                                year={currentDate.year}
+                                month={currentDate.month}
 								onChange={this.changeDate}
 							/>
 						</div>
@@ -77,7 +109,7 @@ class Home extends Component {
 				</header>
 				<div className="content-area py-3 px-3">
 					<ViewTab
-						activeTab={LIST_VIEW}
+                        activeTab={tabView}
 						onTabChange={view => {
 							console.log(view);
 						}}
