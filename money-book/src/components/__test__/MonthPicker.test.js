@@ -72,8 +72,9 @@ describe("test MonthPicker component",() => {
         expect(wrapper.state('isOpen')).toEqual(true)
         expect(wrapper.find('.dropdown-menu').length).toEqual(1)
         eventMap.click({
-            target: ReactDOM.findDOMNode(wrapper.instance())
-        })
+			//wrapper.instance() 找到dom节点本身
+			target: ReactDOM.findDOMNode(wrapper.instance())
+		});
         expect(wrapper.state('isOpen')).toEqual(true)
         eventMap.click({
             target: document,
