@@ -24,6 +24,7 @@
 - React 官方测试工具 - ReactTestUtils
 - Airbnb 基于官方的封装 - Enzyme
 - 测试时注意代码提示，【-u snapshot updated.】 `1 snapshot failed from 1 test suite. Inspect your code changes or press `u` to update them.`
+- 机器检测重复的代码逻辑比人工检测准确得多，执行多遍判断相同的返回结果
 
 ### Enzyme 优点
 - 简单 易懂
@@ -35,5 +36,14 @@
 - 每个条目是否渲染特定组件和内容
 - 点击按钮是否触发特定回调
 - 给viewtab添加测试用例
+
+### 月份选择单元测试用例分析
+- 测试默认状态 - 按钮上渲染年和月是否正确，下拉框是否显示等
+- 测试点击以后状态 - 下拉框是否显示， 年和月的列表是否正确等
+- 点击年和月份以后是否触发正确的回调
+- 对于传的一些特殊的值是否有特殊处理
+- 特殊 DOM 事件的一些触发和处理方法
+
+
 
 
