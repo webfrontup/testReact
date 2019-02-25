@@ -9,46 +9,46 @@ import { LIST_VIEW, CHART_VIEW, TYPE_INCOME, TYPE_OUTCOME, Colors, parseToYearAn
 
 const items = [
 	{
-		id: 1,
-		title: "aabbtravel",
-		price: 200,
-        date: "2018-09-10",
+		"id": 1,
+		"title": "aabbtravel",
+		"price": 200,
+        "date": "2018-09-10",
         "cid": 1,
 	},
 	{
-		id: 2,
-		title: "aabbtravel2",
-		price: 2020,
-        date: "2018-09-10",
+		"id": 2,
+		"title": "aabbtravel2",
+		"price": 2020,
+        "date": "2018-09-10",
         "cid": 2,
 	},
 	{
-		id: 3,
-		title: "aabbtravel3",
-		price: 220,
-        date: "2018-09-10",
+		"id": 3,
+		"title": "aabbtravel3",
+		"price": 220,
+        "date": "2018-09-10",
         "cid": 3,
 	}
 ];
 
 const categorys = {
 	"1": {
-		id: "1",
-		name: "旅行",
-		type: "outcome",
-		iconName: "ios-plane"
+		"id": "1",
+		"name": "旅行",
+		"type": "outcome",
+		"iconName": "ios-plane"
 	},
 	"2": {
-		id: "2",
-		name: "理财",
-		type: "income",
-		iconName: "logo-yen"
+		"id": "2",
+		"name": "理财",
+		"type": "income",
+		"iconName": "logo-yen"
 	},
 	"3": {
-		id: "3",
-		name: "travel",
-		type: "income",
-		iconName: "ios-plane"
+		"id": "3",
+		"name": "travel",
+		"type": "income",
+		"iconName": "ios-plane"
 	}
 };
 
