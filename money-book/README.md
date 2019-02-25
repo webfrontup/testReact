@@ -10,3 +10,8 @@
 - 很多 free icon set -icomoon 、 ionicons
 
 
+## 通用测试框架 - Jest
+- [通用测试框架](https://jestjs.io/zh-Hans/)
+- [断言](https://jestjs.io/docs/zh-Hans/using-matchers)
+- create-react-app自动集成test（包括Jest断言库） `npm test src/example.test.js`
+- 
