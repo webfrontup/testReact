@@ -52,7 +52,7 @@ const categorys = {
 	}
 };
 
-const newItem = {
+export const newItem = {
     "id": 4,
     "title": "新添加的项目",
     "price": 300,
@@ -65,9 +65,8 @@ class Home extends Component {
         super(props)
         this.state = {
 			items,
-            currentDate: parseToYearAndMonth(),
-            tabView: LIST_VIEW,
-
+			currentDate: parseToYearAndMonth("2018/09/01"),
+			tabView: LIST_VIEW
 		};
     }
     changeView = (view) => {
