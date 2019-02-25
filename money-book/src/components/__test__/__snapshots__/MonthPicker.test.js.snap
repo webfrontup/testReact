@@ -35,10 +35,172 @@ ReactWrapper {
           "effectTag": 1,
           "elementType": [Function],
           "expirationTime": 0,
-          "firstEffect": null,
+          "firstEffect": FiberNode {
+            "_debugID": 51,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": [Circular],
+            "_debugSource": Object {
+              "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+              "lineNumber": 56,
+            },
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": null,
+            "child": FiberNode {
+              "_debugID": 52,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                "lineNumber": 57,
+              },
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": null,
+              "childExpirationTime": 0,
+              "contextDependencies": null,
+              "effectTag": 0,
+              "elementType": "h4",
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": "选择月份",
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "children": "选择月份",
+              },
+              "ref": null,
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": FiberNode {
+                "_debugID": 53,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                  "lineNumber": 58,
+                },
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": null,
+                "childExpirationTime": 0,
+                "contextDependencies": null,
+                "effectTag": 0,
+                "elementType": "button",
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 1,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": "2018年 08月",
+                  "className": "btn btn-lg btn-secondary dropdown-toggle",
+                  "onClick": [Function],
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": "2018年 08月",
+                  "className": "btn btn-lg btn-secondary dropdown-toggle",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": <button
+                  class="btn btn-lg btn-secondary dropdown-toggle"
+                >
+                  2018年 08月
+                </button>,
+                "tag": 5,
+                "treeBaseDuration": 0,
+                "type": "button",
+                "updateQueue": null,
+              },
+              "stateNode": <h4>
+                选择月份
+              </h4>,
+              "tag": 5,
+              "treeBaseDuration": 0,
+              "type": "h4",
+              "updateQueue": null,
+            },
+            "childExpirationTime": 0,
+            "contextDependencies": null,
+            "effectTag": 128,
+            "elementType": "div",
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "children": Array [
+                <h4>
+                  选择月份
+                </h4>,
+                <button
+                  className="btn btn-lg btn-secondary dropdown-toggle"
+                  onClick={[Function]}
+                >
+                  2018年 08月
+                </button>,
+                false,
+              ],
+              "className": "dropdown month-picker-component",
+            },
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": [Circular],
+            "pendingProps": Object {
+              "children": Array [
+                <h4>
+                  选择月份
+                </h4>,
+                <button
+                  className="btn btn-lg btn-secondary dropdown-toggle"
+                  onClick={[Function]}
+                >
+                  2018年 08月
+                </button>,
+                false,
+              ],
+              "className": "dropdown month-picker-component",
+            },
+            "ref": [Function],
+            "return": [Circular],
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": <div
+              class="dropdown month-picker-component"
+            >
+              <h4>
+                选择月份
+              </h4>
+              <button
+                class="btn btn-lg btn-secondary dropdown-toggle"
+              >
+                2018年 08月
+              </button>
+            </div>,
+            "tag": 5,
+            "treeBaseDuration": 0,
+            "type": "div",
+            "updateQueue": null,
+          },
           "index": 0,
           "key": null,
-          "lastEffect": null,
+          "lastEffect": [Circular],
           "memoizedProps": Object {
             "Component": [Function],
             "context": null,
@@ -189,7 +351,169 @@ ReactWrapper {
             "effectTag": 32,
             "elementType": null,
             "expirationTime": 0,
-            "firstEffect": [Circular],
+            "firstEffect": FiberNode {
+              "_debugID": 51,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                "lineNumber": 56,
+              },
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": FiberNode {
+                "_debugID": 52,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                  "lineNumber": 57,
+                },
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": null,
+                "childExpirationTime": 0,
+                "contextDependencies": null,
+                "effectTag": 0,
+                "elementType": "h4",
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": "选择月份",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": "选择月份",
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": FiberNode {
+                  "_debugID": 53,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": Object {
+                    "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                    "lineNumber": 58,
+                  },
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": null,
+                  "childExpirationTime": 0,
+                  "contextDependencies": null,
+                  "effectTag": 0,
+                  "elementType": "button",
+                  "expirationTime": 0,
+                  "firstEffect": null,
+                  "index": 1,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": "2018年 08月",
+                    "className": "btn btn-lg btn-secondary dropdown-toggle",
+                    "onClick": [Function],
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "children": "2018年 08月",
+                    "className": "btn btn-lg btn-secondary dropdown-toggle",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": <button
+                    class="btn btn-lg btn-secondary dropdown-toggle"
+                  >
+                    2018年 08月
+                  </button>,
+                  "tag": 5,
+                  "treeBaseDuration": 0,
+                  "type": "button",
+                  "updateQueue": null,
+                },
+                "stateNode": <h4>
+                  选择月份
+                </h4>,
+                "tag": 5,
+                "treeBaseDuration": 0,
+                "type": "h4",
+                "updateQueue": null,
+              },
+              "childExpirationTime": 0,
+              "contextDependencies": null,
+              "effectTag": 128,
+              "elementType": "div",
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": Array [
+                  <h4>
+                    选择月份
+                  </h4>,
+                  <button
+                    className="btn btn-lg btn-secondary dropdown-toggle"
+                    onClick={[Function]}
+                  >
+                    2018年 08月
+                  </button>,
+                  false,
+                ],
+                "className": "dropdown month-picker-component",
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": [Circular],
+              "pendingProps": Object {
+                "children": Array [
+                  <h4>
+                    选择月份
+                  </h4>,
+                  <button
+                    className="btn btn-lg btn-secondary dropdown-toggle"
+                    onClick={[Function]}
+                  >
+                    2018年 08月
+                  </button>,
+                  false,
+                ],
+                "className": "dropdown month-picker-component",
+              },
+              "ref": [Function],
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": <div
+                class="dropdown month-picker-component"
+              >
+                <h4>
+                  选择月份
+                </h4>
+                <button
+                  class="btn btn-lg btn-secondary dropdown-toggle"
+                >
+                  2018年 08月
+                </button>
+              </div>,
+              "tag": 5,
+              "treeBaseDuration": 0,
+              "type": "div",
+              "updateQueue": null,
+            },
             "index": 0,
             "key": null,
             "lastEffect": [Circular],
@@ -420,7 +744,169 @@ ReactWrapper {
             "effectTag": 32,
             "elementType": null,
             "expirationTime": 0,
-            "firstEffect": [Circular],
+            "firstEffect": FiberNode {
+              "_debugID": 51,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                "lineNumber": 56,
+              },
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": FiberNode {
+                "_debugID": 52,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                  "lineNumber": 57,
+                },
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": null,
+                "childExpirationTime": 0,
+                "contextDependencies": null,
+                "effectTag": 0,
+                "elementType": "h4",
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": "选择月份",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": "选择月份",
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": FiberNode {
+                  "_debugID": 53,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": Object {
+                    "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                    "lineNumber": 58,
+                  },
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": null,
+                  "childExpirationTime": 0,
+                  "contextDependencies": null,
+                  "effectTag": 0,
+                  "elementType": "button",
+                  "expirationTime": 0,
+                  "firstEffect": null,
+                  "index": 1,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": "2018年 08月",
+                    "className": "btn btn-lg btn-secondary dropdown-toggle",
+                    "onClick": [Function],
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "children": "2018年 08月",
+                    "className": "btn btn-lg btn-secondary dropdown-toggle",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": <button
+                    class="btn btn-lg btn-secondary dropdown-toggle"
+                  >
+                    2018年 08月
+                  </button>,
+                  "tag": 5,
+                  "treeBaseDuration": 0,
+                  "type": "button",
+                  "updateQueue": null,
+                },
+                "stateNode": <h4>
+                  选择月份
+                </h4>,
+                "tag": 5,
+                "treeBaseDuration": 0,
+                "type": "h4",
+                "updateQueue": null,
+              },
+              "childExpirationTime": 0,
+              "contextDependencies": null,
+              "effectTag": 128,
+              "elementType": "div",
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": Array [
+                  <h4>
+                    选择月份
+                  </h4>,
+                  <button
+                    className="btn btn-lg btn-secondary dropdown-toggle"
+                    onClick={[Function]}
+                  >
+                    2018年 08月
+                  </button>,
+                  false,
+                ],
+                "className": "dropdown month-picker-component",
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": [Circular],
+              "pendingProps": Object {
+                "children": Array [
+                  <h4>
+                    选择月份
+                  </h4>,
+                  <button
+                    className="btn btn-lg btn-secondary dropdown-toggle"
+                    onClick={[Function]}
+                  >
+                    2018年 08月
+                  </button>,
+                  false,
+                ],
+                "className": "dropdown month-picker-component",
+              },
+              "ref": [Function],
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": <div
+                class="dropdown month-picker-component"
+              >
+                <h4>
+                  选择月份
+                </h4>
+                <button
+                  class="btn btn-lg btn-secondary dropdown-toggle"
+                >
+                  2018年 08月
+                </button>
+              </div>,
+              "tag": 5,
+              "treeBaseDuration": 0,
+              "type": "div",
+              "updateQueue": null,
+            },
             "index": 0,
             "key": null,
             "lastEffect": [Circular],
@@ -557,7 +1043,7 @@ ReactWrapper {
           "_debugOwner": [Circular],
           "_debugSource": Object {
             "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
-            "lineNumber": 40,
+            "lineNumber": 56,
           },
           "actualDuration": 0,
           "actualStartTime": -1,
@@ -568,7 +1054,7 @@ ReactWrapper {
             "_debugOwner": [Circular],
             "_debugSource": Object {
               "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
-              "lineNumber": 41,
+              "lineNumber": 57,
             },
             "actualDuration": 0,
             "actualStartTime": -1,
@@ -601,7 +1087,7 @@ ReactWrapper {
               "_debugOwner": [Circular],
               "_debugSource": Object {
                 "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
-                "lineNumber": 42,
+                "lineNumber": 58,
               },
               "actualDuration": 0,
               "actualStartTime": -1,
@@ -653,7 +1139,7 @@ ReactWrapper {
           },
           "childExpirationTime": 0,
           "contextDependencies": null,
-          "effectTag": 0,
+          "effectTag": 128,
           "elementType": "div",
           "expirationTime": 0,
           "firstEffect": null,
@@ -677,7 +1163,7 @@ ReactWrapper {
           },
           "memoizedState": null,
           "mode": 0,
-          "nextEffect": null,
+          "nextEffect": [Circular],
           "pendingProps": Object {
             "children": Array [
               <h4>
@@ -693,7 +1179,7 @@ ReactWrapper {
             ],
             "className": "dropdown month-picker-component",
           },
-          "ref": null,
+          "ref": [Function],
           "return": [Circular],
           "selfBaseDuration": 0,
           "sibling": null,
@@ -716,13 +1202,337 @@ ReactWrapper {
         },
         "childExpirationTime": 0,
         "contextDependencies": null,
-        "effectTag": 1,
+        "effectTag": 5,
         "elementType": [Function],
         "expirationTime": 0,
-        "firstEffect": null,
+        "firstEffect": FiberNode {
+          "_debugID": 51,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": [Circular],
+          "_debugSource": Object {
+            "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+            "lineNumber": 56,
+          },
+          "actualDuration": 0,
+          "actualStartTime": -1,
+          "alternate": null,
+          "child": FiberNode {
+            "_debugID": 52,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": [Circular],
+            "_debugSource": Object {
+              "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+              "lineNumber": 57,
+            },
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": null,
+            "child": null,
+            "childExpirationTime": 0,
+            "contextDependencies": null,
+            "effectTag": 0,
+            "elementType": "h4",
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "children": "选择月份",
+            },
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "children": "选择月份",
+            },
+            "ref": null,
+            "return": [Circular],
+            "selfBaseDuration": 0,
+            "sibling": FiberNode {
+              "_debugID": 53,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                "lineNumber": 58,
+              },
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": null,
+              "childExpirationTime": 0,
+              "contextDependencies": null,
+              "effectTag": 0,
+              "elementType": "button",
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 1,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": "2018年 08月",
+                "className": "btn btn-lg btn-secondary dropdown-toggle",
+                "onClick": [Function],
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "children": "2018年 08月",
+                "className": "btn btn-lg btn-secondary dropdown-toggle",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": <button
+                class="btn btn-lg btn-secondary dropdown-toggle"
+              >
+                2018年 08月
+              </button>,
+              "tag": 5,
+              "treeBaseDuration": 0,
+              "type": "button",
+              "updateQueue": null,
+            },
+            "stateNode": <h4>
+              选择月份
+            </h4>,
+            "tag": 5,
+            "treeBaseDuration": 0,
+            "type": "h4",
+            "updateQueue": null,
+          },
+          "childExpirationTime": 0,
+          "contextDependencies": null,
+          "effectTag": 128,
+          "elementType": "div",
+          "expirationTime": 0,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "children": Array [
+              <h4>
+                选择月份
+              </h4>,
+              <button
+                className="btn btn-lg btn-secondary dropdown-toggle"
+                onClick={[Function]}
+              >
+                2018年 08月
+              </button>,
+              false,
+            ],
+            "className": "dropdown month-picker-component",
+          },
+          "memoizedState": null,
+          "mode": 0,
+          "nextEffect": [Circular],
+          "pendingProps": Object {
+            "children": Array [
+              <h4>
+                选择月份
+              </h4>,
+              <button
+                className="btn btn-lg btn-secondary dropdown-toggle"
+                onClick={[Function]}
+              >
+                2018年 08月
+              </button>,
+              false,
+            ],
+            "className": "dropdown month-picker-component",
+          },
+          "ref": [Function],
+          "return": [Circular],
+          "selfBaseDuration": 0,
+          "sibling": null,
+          "stateNode": <div
+            class="dropdown month-picker-component"
+          >
+            <h4>
+              选择月份
+            </h4>
+            <button
+              class="btn btn-lg btn-secondary dropdown-toggle"
+            >
+              2018年 08月
+            </button>
+          </div>,
+          "tag": 5,
+          "treeBaseDuration": 0,
+          "type": "div",
+          "updateQueue": null,
+        },
         "index": 0,
         "key": null,
-        "lastEffect": null,
+        "lastEffect": FiberNode {
+          "_debugID": 51,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": [Circular],
+          "_debugSource": Object {
+            "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+            "lineNumber": 56,
+          },
+          "actualDuration": 0,
+          "actualStartTime": -1,
+          "alternate": null,
+          "child": FiberNode {
+            "_debugID": 52,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": [Circular],
+            "_debugSource": Object {
+              "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+              "lineNumber": 57,
+            },
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": null,
+            "child": null,
+            "childExpirationTime": 0,
+            "contextDependencies": null,
+            "effectTag": 0,
+            "elementType": "h4",
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "children": "选择月份",
+            },
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "children": "选择月份",
+            },
+            "ref": null,
+            "return": [Circular],
+            "selfBaseDuration": 0,
+            "sibling": FiberNode {
+              "_debugID": 53,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                "lineNumber": 58,
+              },
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": null,
+              "childExpirationTime": 0,
+              "contextDependencies": null,
+              "effectTag": 0,
+              "elementType": "button",
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 1,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": "2018年 08月",
+                "className": "btn btn-lg btn-secondary dropdown-toggle",
+                "onClick": [Function],
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "children": "2018年 08月",
+                "className": "btn btn-lg btn-secondary dropdown-toggle",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": <button
+                class="btn btn-lg btn-secondary dropdown-toggle"
+              >
+                2018年 08月
+              </button>,
+              "tag": 5,
+              "treeBaseDuration": 0,
+              "type": "button",
+              "updateQueue": null,
+            },
+            "stateNode": <h4>
+              选择月份
+            </h4>,
+            "tag": 5,
+            "treeBaseDuration": 0,
+            "type": "h4",
+            "updateQueue": null,
+          },
+          "childExpirationTime": 0,
+          "contextDependencies": null,
+          "effectTag": 128,
+          "elementType": "div",
+          "expirationTime": 0,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "children": Array [
+              <h4>
+                选择月份
+              </h4>,
+              <button
+                className="btn btn-lg btn-secondary dropdown-toggle"
+                onClick={[Function]}
+              >
+                2018年 08月
+              </button>,
+              false,
+            ],
+            "className": "dropdown month-picker-component",
+          },
+          "memoizedState": null,
+          "mode": 0,
+          "nextEffect": [Circular],
+          "pendingProps": Object {
+            "children": Array [
+              <h4>
+                选择月份
+              </h4>,
+              <button
+                className="btn btn-lg btn-secondary dropdown-toggle"
+                onClick={[Function]}
+              >
+                2018年 08月
+              </button>,
+              false,
+            ],
+            "className": "dropdown month-picker-component",
+          },
+          "ref": [Function],
+          "return": [Circular],
+          "selfBaseDuration": 0,
+          "sibling": null,
+          "stateNode": <div
+            class="dropdown month-picker-component"
+          >
+            <h4>
+              选择月份
+            </h4>
+            <button
+              class="btn btn-lg btn-secondary dropdown-toggle"
+            >
+              2018年 08月
+            </button>
+          </div>,
+          "tag": 5,
+          "treeBaseDuration": 0,
+          "type": "div",
+          "updateQueue": null,
+        },
         "memoizedProps": Object {
           "month": 8,
           "onChange": [MockFunction],
@@ -733,14 +1543,7 @@ ReactWrapper {
           "selectedYear": 2018,
         },
         "mode": 0,
-        "nextEffect": null,
-        "pendingProps": Object {
-          "month": 8,
-          "onChange": [MockFunction],
-          "year": 2018,
-        },
-        "ref": null,
-        "return": FiberNode {
+        "nextEffect": FiberNode {
           "_debugID": 49,
           "_debugIsCurrentlyTiming": false,
           "_debugOwner": null,
@@ -754,10 +1557,172 @@ ReactWrapper {
           "effectTag": 1,
           "elementType": [Function],
           "expirationTime": 0,
-          "firstEffect": null,
+          "firstEffect": FiberNode {
+            "_debugID": 51,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": [Circular],
+            "_debugSource": Object {
+              "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+              "lineNumber": 56,
+            },
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": null,
+            "child": FiberNode {
+              "_debugID": 52,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                "lineNumber": 57,
+              },
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": null,
+              "childExpirationTime": 0,
+              "contextDependencies": null,
+              "effectTag": 0,
+              "elementType": "h4",
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": "选择月份",
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "children": "选择月份",
+              },
+              "ref": null,
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": FiberNode {
+                "_debugID": 53,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                  "lineNumber": 58,
+                },
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": null,
+                "childExpirationTime": 0,
+                "contextDependencies": null,
+                "effectTag": 0,
+                "elementType": "button",
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 1,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": "2018年 08月",
+                  "className": "btn btn-lg btn-secondary dropdown-toggle",
+                  "onClick": [Function],
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": "2018年 08月",
+                  "className": "btn btn-lg btn-secondary dropdown-toggle",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": <button
+                  class="btn btn-lg btn-secondary dropdown-toggle"
+                >
+                  2018年 08月
+                </button>,
+                "tag": 5,
+                "treeBaseDuration": 0,
+                "type": "button",
+                "updateQueue": null,
+              },
+              "stateNode": <h4>
+                选择月份
+              </h4>,
+              "tag": 5,
+              "treeBaseDuration": 0,
+              "type": "h4",
+              "updateQueue": null,
+            },
+            "childExpirationTime": 0,
+            "contextDependencies": null,
+            "effectTag": 128,
+            "elementType": "div",
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "children": Array [
+                <h4>
+                  选择月份
+                </h4>,
+                <button
+                  className="btn btn-lg btn-secondary dropdown-toggle"
+                  onClick={[Function]}
+                >
+                  2018年 08月
+                </button>,
+                false,
+              ],
+              "className": "dropdown month-picker-component",
+            },
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": [Circular],
+            "pendingProps": Object {
+              "children": Array [
+                <h4>
+                  选择月份
+                </h4>,
+                <button
+                  className="btn btn-lg btn-secondary dropdown-toggle"
+                  onClick={[Function]}
+                >
+                  2018年 08月
+                </button>,
+                false,
+              ],
+              "className": "dropdown month-picker-component",
+            },
+            "ref": [Function],
+            "return": [Circular],
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": <div
+              class="dropdown month-picker-component"
+            >
+              <h4>
+                选择月份
+              </h4>
+              <button
+                class="btn btn-lg btn-secondary dropdown-toggle"
+              >
+                2018年 08月
+              </button>
+            </div>,
+            "tag": 5,
+            "treeBaseDuration": 0,
+            "type": "div",
+            "updateQueue": null,
+          },
           "index": 0,
           "key": null,
-          "lastEffect": null,
+          "lastEffect": [Circular],
           "memoizedProps": Object {
             "Component": [Function],
             "context": null,
@@ -908,7 +1873,169 @@ ReactWrapper {
             "effectTag": 32,
             "elementType": null,
             "expirationTime": 0,
-            "firstEffect": [Circular],
+            "firstEffect": FiberNode {
+              "_debugID": 51,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                "lineNumber": 56,
+              },
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": FiberNode {
+                "_debugID": 52,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                  "lineNumber": 57,
+                },
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": null,
+                "childExpirationTime": 0,
+                "contextDependencies": null,
+                "effectTag": 0,
+                "elementType": "h4",
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": "选择月份",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": "选择月份",
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": FiberNode {
+                  "_debugID": 53,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": Object {
+                    "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                    "lineNumber": 58,
+                  },
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": null,
+                  "childExpirationTime": 0,
+                  "contextDependencies": null,
+                  "effectTag": 0,
+                  "elementType": "button",
+                  "expirationTime": 0,
+                  "firstEffect": null,
+                  "index": 1,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": "2018年 08月",
+                    "className": "btn btn-lg btn-secondary dropdown-toggle",
+                    "onClick": [Function],
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "children": "2018年 08月",
+                    "className": "btn btn-lg btn-secondary dropdown-toggle",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": <button
+                    class="btn btn-lg btn-secondary dropdown-toggle"
+                  >
+                    2018年 08月
+                  </button>,
+                  "tag": 5,
+                  "treeBaseDuration": 0,
+                  "type": "button",
+                  "updateQueue": null,
+                },
+                "stateNode": <h4>
+                  选择月份
+                </h4>,
+                "tag": 5,
+                "treeBaseDuration": 0,
+                "type": "h4",
+                "updateQueue": null,
+              },
+              "childExpirationTime": 0,
+              "contextDependencies": null,
+              "effectTag": 128,
+              "elementType": "div",
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": Array [
+                  <h4>
+                    选择月份
+                  </h4>,
+                  <button
+                    className="btn btn-lg btn-secondary dropdown-toggle"
+                    onClick={[Function]}
+                  >
+                    2018年 08月
+                  </button>,
+                  false,
+                ],
+                "className": "dropdown month-picker-component",
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": [Circular],
+              "pendingProps": Object {
+                "children": Array [
+                  <h4>
+                    选择月份
+                  </h4>,
+                  <button
+                    className="btn btn-lg btn-secondary dropdown-toggle"
+                    onClick={[Function]}
+                  >
+                    2018年 08月
+                  </button>,
+                  false,
+                ],
+                "className": "dropdown month-picker-component",
+              },
+              "ref": [Function],
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": <div
+                class="dropdown month-picker-component"
+              >
+                <h4>
+                  选择月份
+                </h4>
+                <button
+                  class="btn btn-lg btn-secondary dropdown-toggle"
+                >
+                  2018年 08月
+                </button>
+              </div>,
+              "tag": 5,
+              "treeBaseDuration": 0,
+              "type": "div",
+              "updateQueue": null,
+            },
             "index": 0,
             "key": null,
             "lastEffect": [Circular],
@@ -1139,7 +2266,1187 @@ ReactWrapper {
             "effectTag": 32,
             "elementType": null,
             "expirationTime": 0,
-            "firstEffect": [Circular],
+            "firstEffect": FiberNode {
+              "_debugID": 51,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                "lineNumber": 56,
+              },
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": FiberNode {
+                "_debugID": 52,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                  "lineNumber": 57,
+                },
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": null,
+                "childExpirationTime": 0,
+                "contextDependencies": null,
+                "effectTag": 0,
+                "elementType": "h4",
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": "选择月份",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": "选择月份",
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": FiberNode {
+                  "_debugID": 53,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": Object {
+                    "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                    "lineNumber": 58,
+                  },
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": null,
+                  "childExpirationTime": 0,
+                  "contextDependencies": null,
+                  "effectTag": 0,
+                  "elementType": "button",
+                  "expirationTime": 0,
+                  "firstEffect": null,
+                  "index": 1,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": "2018年 08月",
+                    "className": "btn btn-lg btn-secondary dropdown-toggle",
+                    "onClick": [Function],
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "children": "2018年 08月",
+                    "className": "btn btn-lg btn-secondary dropdown-toggle",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": <button
+                    class="btn btn-lg btn-secondary dropdown-toggle"
+                  >
+                    2018年 08月
+                  </button>,
+                  "tag": 5,
+                  "treeBaseDuration": 0,
+                  "type": "button",
+                  "updateQueue": null,
+                },
+                "stateNode": <h4>
+                  选择月份
+                </h4>,
+                "tag": 5,
+                "treeBaseDuration": 0,
+                "type": "h4",
+                "updateQueue": null,
+              },
+              "childExpirationTime": 0,
+              "contextDependencies": null,
+              "effectTag": 128,
+              "elementType": "div",
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": Array [
+                  <h4>
+                    选择月份
+                  </h4>,
+                  <button
+                    className="btn btn-lg btn-secondary dropdown-toggle"
+                    onClick={[Function]}
+                  >
+                    2018年 08月
+                  </button>,
+                  false,
+                ],
+                "className": "dropdown month-picker-component",
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": [Circular],
+              "pendingProps": Object {
+                "children": Array [
+                  <h4>
+                    选择月份
+                  </h4>,
+                  <button
+                    className="btn btn-lg btn-secondary dropdown-toggle"
+                    onClick={[Function]}
+                  >
+                    2018年 08月
+                  </button>,
+                  false,
+                ],
+                "className": "dropdown month-picker-component",
+              },
+              "ref": [Function],
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": <div
+                class="dropdown month-picker-component"
+              >
+                <h4>
+                  选择月份
+                </h4>
+                <button
+                  class="btn btn-lg btn-secondary dropdown-toggle"
+                >
+                  2018年 08月
+                </button>
+              </div>,
+              "tag": 5,
+              "treeBaseDuration": 0,
+              "type": "div",
+              "updateQueue": null,
+            },
+            "index": 0,
+            "key": null,
+            "lastEffect": [Circular],
+            "memoizedProps": null,
+            "memoizedState": Object {
+              "element": <WrapperComponent
+                Component={[Function]}
+                context={null}
+                props={
+                  Object {
+                    "month": 8,
+                    "onChange": [MockFunction],
+                    "year": 2018,
+                  }
+                }
+              />,
+            },
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": null,
+            "ref": null,
+            "return": null,
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": Object {
+              "containerInfo": <div>
+                <div
+                  class="dropdown month-picker-component"
+                >
+                  <h4>
+                    选择月份
+                  </h4>
+                  <button
+                    class="btn btn-lg btn-secondary dropdown-toggle"
+                  >
+                    2018年 08月
+                  </button>
+                </div>
+              </div>,
+              "context": Object {},
+              "current": [Circular],
+              "didError": false,
+              "earliestPendingTime": 0,
+              "earliestSuspendedTime": 0,
+              "expirationTime": 0,
+              "finishedWork": null,
+              "firstBatch": null,
+              "hydrate": false,
+              "interactionThreadID": 12,
+              "latestPendingTime": 0,
+              "latestPingedTime": 0,
+              "latestSuspendedTime": 0,
+              "memoizedInteractions": Set {},
+              "nextExpirationTimeToWorkOn": 0,
+              "nextScheduledRoot": null,
+              "pendingChildren": null,
+              "pendingCommitExpirationTime": 0,
+              "pendingContext": null,
+              "pendingInteractionMap": Map {},
+              "pingCache": null,
+              "timeoutHandle": -1,
+            },
+            "tag": 3,
+            "treeBaseDuration": 0,
+            "type": null,
+            "updateQueue": Object {
+              "baseState": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={
+                    Object {
+                      "month": 8,
+                      "onChange": [MockFunction],
+                      "year": 2018,
+                    }
+                  }
+                />,
+              },
+              "firstCapturedEffect": null,
+              "firstCapturedUpdate": null,
+              "firstEffect": null,
+              "firstUpdate": null,
+              "lastCapturedEffect": null,
+              "lastCapturedUpdate": null,
+              "lastEffect": null,
+              "lastUpdate": null,
+            },
+          },
+          "selfBaseDuration": 0,
+          "sibling": null,
+          "stateNode": WrapperComponent {
+            "_reactInternalFiber": [Circular],
+            "_reactInternalInstance": Object {},
+            "context": Object {},
+            "props": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {
+                "month": 8,
+                "onChange": [MockFunction],
+                "year": 2018,
+              },
+            },
+            "refs": Object {},
+            "state": Object {
+              "context": null,
+              "mount": true,
+              "props": Object {
+                "month": 8,
+                "onChange": [MockFunction],
+                "year": 2018,
+              },
+            },
+            "updater": Object {
+              "enqueueForceUpdate": [Function],
+              "enqueueReplaceState": [Function],
+              "enqueueSetState": [Function],
+              "isMounted": [Function],
+            },
+          },
+          "tag": 1,
+          "treeBaseDuration": 0,
+          "type": [Function],
+          "updateQueue": null,
+        },
+        "pendingProps": Object {
+          "month": 8,
+          "onChange": [MockFunction],
+          "year": 2018,
+        },
+        "ref": null,
+        "return": FiberNode {
+          "_debugID": 49,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": null,
+          "_debugSource": null,
+          "actualDuration": 0,
+          "actualStartTime": -1,
+          "alternate": null,
+          "child": [Circular],
+          "childExpirationTime": 0,
+          "contextDependencies": null,
+          "effectTag": 1,
+          "elementType": [Function],
+          "expirationTime": 0,
+          "firstEffect": FiberNode {
+            "_debugID": 51,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": [Circular],
+            "_debugSource": Object {
+              "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+              "lineNumber": 56,
+            },
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": null,
+            "child": FiberNode {
+              "_debugID": 52,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                "lineNumber": 57,
+              },
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": null,
+              "childExpirationTime": 0,
+              "contextDependencies": null,
+              "effectTag": 0,
+              "elementType": "h4",
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": "选择月份",
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "children": "选择月份",
+              },
+              "ref": null,
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": FiberNode {
+                "_debugID": 53,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                  "lineNumber": 58,
+                },
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": null,
+                "childExpirationTime": 0,
+                "contextDependencies": null,
+                "effectTag": 0,
+                "elementType": "button",
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 1,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": "2018年 08月",
+                  "className": "btn btn-lg btn-secondary dropdown-toggle",
+                  "onClick": [Function],
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": "2018年 08月",
+                  "className": "btn btn-lg btn-secondary dropdown-toggle",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": <button
+                  class="btn btn-lg btn-secondary dropdown-toggle"
+                >
+                  2018年 08月
+                </button>,
+                "tag": 5,
+                "treeBaseDuration": 0,
+                "type": "button",
+                "updateQueue": null,
+              },
+              "stateNode": <h4>
+                选择月份
+              </h4>,
+              "tag": 5,
+              "treeBaseDuration": 0,
+              "type": "h4",
+              "updateQueue": null,
+            },
+            "childExpirationTime": 0,
+            "contextDependencies": null,
+            "effectTag": 128,
+            "elementType": "div",
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "children": Array [
+                <h4>
+                  选择月份
+                </h4>,
+                <button
+                  className="btn btn-lg btn-secondary dropdown-toggle"
+                  onClick={[Function]}
+                >
+                  2018年 08月
+                </button>,
+                false,
+              ],
+              "className": "dropdown month-picker-component",
+            },
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": [Circular],
+            "pendingProps": Object {
+              "children": Array [
+                <h4>
+                  选择月份
+                </h4>,
+                <button
+                  className="btn btn-lg btn-secondary dropdown-toggle"
+                  onClick={[Function]}
+                >
+                  2018年 08月
+                </button>,
+                false,
+              ],
+              "className": "dropdown month-picker-component",
+            },
+            "ref": [Function],
+            "return": [Circular],
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": <div
+              class="dropdown month-picker-component"
+            >
+              <h4>
+                选择月份
+              </h4>
+              <button
+                class="btn btn-lg btn-secondary dropdown-toggle"
+              >
+                2018年 08月
+              </button>
+            </div>,
+            "tag": 5,
+            "treeBaseDuration": 0,
+            "type": "div",
+            "updateQueue": null,
+          },
+          "index": 0,
+          "key": null,
+          "lastEffect": [Circular],
+          "memoizedProps": Object {
+            "Component": [Function],
+            "context": null,
+            "props": Object {
+              "month": 8,
+              "onChange": [MockFunction],
+              "year": 2018,
+            },
+          },
+          "memoizedState": Object {
+            "context": null,
+            "mount": true,
+            "props": Object {
+              "month": 8,
+              "onChange": [MockFunction],
+              "year": 2018,
+            },
+          },
+          "mode": 0,
+          "nextEffect": FiberNode {
+            "_debugID": 47,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": null,
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": FiberNode {
+              "_debugID": 47,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": [Circular],
+              "child": null,
+              "childExpirationTime": 0,
+              "contextDependencies": null,
+              "effectTag": 0,
+              "elementType": null,
+              "expirationTime": 1073741823,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": null,
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": null,
+              "ref": null,
+              "return": null,
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": Object {
+                "containerInfo": <div>
+                  <div
+                    class="dropdown month-picker-component"
+                  >
+                    <h4>
+                      选择月份
+                    </h4>
+                    <button
+                      class="btn btn-lg btn-secondary dropdown-toggle"
+                    >
+                      2018年 08月
+                    </button>
+                  </div>
+                </div>,
+                "context": Object {},
+                "current": [Circular],
+                "didError": false,
+                "earliestPendingTime": 0,
+                "earliestSuspendedTime": 0,
+                "expirationTime": 0,
+                "finishedWork": null,
+                "firstBatch": null,
+                "hydrate": false,
+                "interactionThreadID": 12,
+                "latestPendingTime": 0,
+                "latestPingedTime": 0,
+                "latestSuspendedTime": 0,
+                "memoizedInteractions": Set {},
+                "nextExpirationTimeToWorkOn": 0,
+                "nextScheduledRoot": null,
+                "pendingChildren": null,
+                "pendingCommitExpirationTime": 0,
+                "pendingContext": null,
+                "pendingInteractionMap": Map {},
+                "pingCache": null,
+                "timeoutHandle": -1,
+              },
+              "tag": 3,
+              "treeBaseDuration": 0,
+              "type": null,
+              "updateQueue": Object {
+                "baseState": null,
+                "firstCapturedEffect": null,
+                "firstCapturedUpdate": null,
+                "firstEffect": null,
+                "firstUpdate": Object {
+                  "callback": null,
+                  "expirationTime": 1073741823,
+                  "next": null,
+                  "nextEffect": null,
+                  "payload": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={
+                        Object {
+                          "month": 8,
+                          "onChange": [MockFunction],
+                          "year": 2018,
+                        }
+                      }
+                    />,
+                  },
+                  "tag": 0,
+                },
+                "lastCapturedEffect": null,
+                "lastCapturedUpdate": null,
+                "lastEffect": null,
+                "lastUpdate": Object {
+                  "callback": null,
+                  "expirationTime": 1073741823,
+                  "next": null,
+                  "nextEffect": null,
+                  "payload": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={
+                        Object {
+                          "month": 8,
+                          "onChange": [MockFunction],
+                          "year": 2018,
+                        }
+                      }
+                    />,
+                  },
+                  "tag": 0,
+                },
+              },
+            },
+            "child": [Circular],
+            "childExpirationTime": 0,
+            "contextDependencies": null,
+            "effectTag": 32,
+            "elementType": null,
+            "expirationTime": 0,
+            "firstEffect": FiberNode {
+              "_debugID": 51,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                "lineNumber": 56,
+              },
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": FiberNode {
+                "_debugID": 52,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                  "lineNumber": 57,
+                },
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": null,
+                "childExpirationTime": 0,
+                "contextDependencies": null,
+                "effectTag": 0,
+                "elementType": "h4",
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": "选择月份",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": "选择月份",
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": FiberNode {
+                  "_debugID": 53,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": Object {
+                    "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                    "lineNumber": 58,
+                  },
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": null,
+                  "childExpirationTime": 0,
+                  "contextDependencies": null,
+                  "effectTag": 0,
+                  "elementType": "button",
+                  "expirationTime": 0,
+                  "firstEffect": null,
+                  "index": 1,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": "2018年 08月",
+                    "className": "btn btn-lg btn-secondary dropdown-toggle",
+                    "onClick": [Function],
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "children": "2018年 08月",
+                    "className": "btn btn-lg btn-secondary dropdown-toggle",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": <button
+                    class="btn btn-lg btn-secondary dropdown-toggle"
+                  >
+                    2018年 08月
+                  </button>,
+                  "tag": 5,
+                  "treeBaseDuration": 0,
+                  "type": "button",
+                  "updateQueue": null,
+                },
+                "stateNode": <h4>
+                  选择月份
+                </h4>,
+                "tag": 5,
+                "treeBaseDuration": 0,
+                "type": "h4",
+                "updateQueue": null,
+              },
+              "childExpirationTime": 0,
+              "contextDependencies": null,
+              "effectTag": 128,
+              "elementType": "div",
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": Array [
+                  <h4>
+                    选择月份
+                  </h4>,
+                  <button
+                    className="btn btn-lg btn-secondary dropdown-toggle"
+                    onClick={[Function]}
+                  >
+                    2018年 08月
+                  </button>,
+                  false,
+                ],
+                "className": "dropdown month-picker-component",
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": [Circular],
+              "pendingProps": Object {
+                "children": Array [
+                  <h4>
+                    选择月份
+                  </h4>,
+                  <button
+                    className="btn btn-lg btn-secondary dropdown-toggle"
+                    onClick={[Function]}
+                  >
+                    2018年 08月
+                  </button>,
+                  false,
+                ],
+                "className": "dropdown month-picker-component",
+              },
+              "ref": [Function],
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": <div
+                class="dropdown month-picker-component"
+              >
+                <h4>
+                  选择月份
+                </h4>
+                <button
+                  class="btn btn-lg btn-secondary dropdown-toggle"
+                >
+                  2018年 08月
+                </button>
+              </div>,
+              "tag": 5,
+              "treeBaseDuration": 0,
+              "type": "div",
+              "updateQueue": null,
+            },
+            "index": 0,
+            "key": null,
+            "lastEffect": [Circular],
+            "memoizedProps": null,
+            "memoizedState": Object {
+              "element": <WrapperComponent
+                Component={[Function]}
+                context={null}
+                props={
+                  Object {
+                    "month": 8,
+                    "onChange": [MockFunction],
+                    "year": 2018,
+                  }
+                }
+              />,
+            },
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": null,
+            "ref": null,
+            "return": null,
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": Object {
+              "containerInfo": <div>
+                <div
+                  class="dropdown month-picker-component"
+                >
+                  <h4>
+                    选择月份
+                  </h4>
+                  <button
+                    class="btn btn-lg btn-secondary dropdown-toggle"
+                  >
+                    2018年 08月
+                  </button>
+                </div>
+              </div>,
+              "context": Object {},
+              "current": [Circular],
+              "didError": false,
+              "earliestPendingTime": 0,
+              "earliestSuspendedTime": 0,
+              "expirationTime": 0,
+              "finishedWork": null,
+              "firstBatch": null,
+              "hydrate": false,
+              "interactionThreadID": 12,
+              "latestPendingTime": 0,
+              "latestPingedTime": 0,
+              "latestSuspendedTime": 0,
+              "memoizedInteractions": Set {},
+              "nextExpirationTimeToWorkOn": 0,
+              "nextScheduledRoot": null,
+              "pendingChildren": null,
+              "pendingCommitExpirationTime": 0,
+              "pendingContext": null,
+              "pendingInteractionMap": Map {},
+              "pingCache": null,
+              "timeoutHandle": -1,
+            },
+            "tag": 3,
+            "treeBaseDuration": 0,
+            "type": null,
+            "updateQueue": Object {
+              "baseState": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={
+                    Object {
+                      "month": 8,
+                      "onChange": [MockFunction],
+                      "year": 2018,
+                    }
+                  }
+                />,
+              },
+              "firstCapturedEffect": null,
+              "firstCapturedUpdate": null,
+              "firstEffect": null,
+              "firstUpdate": null,
+              "lastCapturedEffect": null,
+              "lastCapturedUpdate": null,
+              "lastEffect": null,
+              "lastUpdate": null,
+            },
+          },
+          "pendingProps": Object {
+            "Component": [Function],
+            "context": null,
+            "props": Object {
+              "month": 8,
+              "onChange": [MockFunction],
+              "year": 2018,
+            },
+          },
+          "ref": null,
+          "return": FiberNode {
+            "_debugID": 47,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": null,
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": FiberNode {
+              "_debugID": 47,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": [Circular],
+              "child": null,
+              "childExpirationTime": 0,
+              "contextDependencies": null,
+              "effectTag": 0,
+              "elementType": null,
+              "expirationTime": 1073741823,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": null,
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": null,
+              "ref": null,
+              "return": null,
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": Object {
+                "containerInfo": <div>
+                  <div
+                    class="dropdown month-picker-component"
+                  >
+                    <h4>
+                      选择月份
+                    </h4>
+                    <button
+                      class="btn btn-lg btn-secondary dropdown-toggle"
+                    >
+                      2018年 08月
+                    </button>
+                  </div>
+                </div>,
+                "context": Object {},
+                "current": [Circular],
+                "didError": false,
+                "earliestPendingTime": 0,
+                "earliestSuspendedTime": 0,
+                "expirationTime": 0,
+                "finishedWork": null,
+                "firstBatch": null,
+                "hydrate": false,
+                "interactionThreadID": 12,
+                "latestPendingTime": 0,
+                "latestPingedTime": 0,
+                "latestSuspendedTime": 0,
+                "memoizedInteractions": Set {},
+                "nextExpirationTimeToWorkOn": 0,
+                "nextScheduledRoot": null,
+                "pendingChildren": null,
+                "pendingCommitExpirationTime": 0,
+                "pendingContext": null,
+                "pendingInteractionMap": Map {},
+                "pingCache": null,
+                "timeoutHandle": -1,
+              },
+              "tag": 3,
+              "treeBaseDuration": 0,
+              "type": null,
+              "updateQueue": Object {
+                "baseState": null,
+                "firstCapturedEffect": null,
+                "firstCapturedUpdate": null,
+                "firstEffect": null,
+                "firstUpdate": Object {
+                  "callback": null,
+                  "expirationTime": 1073741823,
+                  "next": null,
+                  "nextEffect": null,
+                  "payload": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={
+                        Object {
+                          "month": 8,
+                          "onChange": [MockFunction],
+                          "year": 2018,
+                        }
+                      }
+                    />,
+                  },
+                  "tag": 0,
+                },
+                "lastCapturedEffect": null,
+                "lastCapturedUpdate": null,
+                "lastEffect": null,
+                "lastUpdate": Object {
+                  "callback": null,
+                  "expirationTime": 1073741823,
+                  "next": null,
+                  "nextEffect": null,
+                  "payload": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={
+                        Object {
+                          "month": 8,
+                          "onChange": [MockFunction],
+                          "year": 2018,
+                        }
+                      }
+                    />,
+                  },
+                  "tag": 0,
+                },
+              },
+            },
+            "child": [Circular],
+            "childExpirationTime": 0,
+            "contextDependencies": null,
+            "effectTag": 32,
+            "elementType": null,
+            "expirationTime": 0,
+            "firstEffect": FiberNode {
+              "_debugID": 51,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                "lineNumber": 56,
+              },
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": FiberNode {
+                "_debugID": 52,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                  "lineNumber": 57,
+                },
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": null,
+                "childExpirationTime": 0,
+                "contextDependencies": null,
+                "effectTag": 0,
+                "elementType": "h4",
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": "选择月份",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": "选择月份",
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": FiberNode {
+                  "_debugID": 53,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": Object {
+                    "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                    "lineNumber": 58,
+                  },
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": null,
+                  "childExpirationTime": 0,
+                  "contextDependencies": null,
+                  "effectTag": 0,
+                  "elementType": "button",
+                  "expirationTime": 0,
+                  "firstEffect": null,
+                  "index": 1,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": "2018年 08月",
+                    "className": "btn btn-lg btn-secondary dropdown-toggle",
+                    "onClick": [Function],
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "children": "2018年 08月",
+                    "className": "btn btn-lg btn-secondary dropdown-toggle",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": <button
+                    class="btn btn-lg btn-secondary dropdown-toggle"
+                  >
+                    2018年 08月
+                  </button>,
+                  "tag": 5,
+                  "treeBaseDuration": 0,
+                  "type": "button",
+                  "updateQueue": null,
+                },
+                "stateNode": <h4>
+                  选择月份
+                </h4>,
+                "tag": 5,
+                "treeBaseDuration": 0,
+                "type": "h4",
+                "updateQueue": null,
+              },
+              "childExpirationTime": 0,
+              "contextDependencies": null,
+              "effectTag": 128,
+              "elementType": "div",
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": Array [
+                  <h4>
+                    选择月份
+                  </h4>,
+                  <button
+                    className="btn btn-lg btn-secondary dropdown-toggle"
+                    onClick={[Function]}
+                  >
+                    2018年 08月
+                  </button>,
+                  false,
+                ],
+                "className": "dropdown month-picker-component",
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": [Circular],
+              "pendingProps": Object {
+                "children": Array [
+                  <h4>
+                    选择月份
+                  </h4>,
+                  <button
+                    className="btn btn-lg btn-secondary dropdown-toggle"
+                    onClick={[Function]}
+                  >
+                    2018年 08月
+                  </button>,
+                  false,
+                ],
+                "className": "dropdown month-picker-component",
+              },
+              "ref": [Function],
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": <div
+                class="dropdown month-picker-component"
+              >
+                <h4>
+                  选择月份
+                </h4>
+                <button
+                  class="btn btn-lg btn-secondary dropdown-toggle"
+                >
+                  2018年 08月
+                </button>
+              </div>,
+              "tag": 5,
+              "treeBaseDuration": 0,
+              "type": "div",
+              "updateQueue": null,
+            },
             "index": 0,
             "key": null,
             "lastEffect": [Circular],
@@ -1276,6 +3583,19 @@ ReactWrapper {
       },
       "_reactInternalInstance": Object {},
       "context": Object {},
+      "handleClick": [Function],
+      "node": <div
+        class="dropdown month-picker-component"
+      >
+        <h4>
+          选择月份
+        </h4>
+        <button
+          class="btn btn-lg btn-secondary dropdown-toggle"
+        >
+          2018年 08月
+        </button>
+      </div>,
       "props": Object {
         "month": 8,
         "onChange": [MockFunction],
@@ -1334,7 +3654,7 @@ ReactWrapper {
         ],
         "className": "dropdown month-picker-component",
       },
-      "ref": null,
+      "ref": [Function],
       "rendered": Array [
         Object {
           "instance": <h4>
@@ -1395,10 +3715,172 @@ ReactWrapper {
             "effectTag": 1,
             "elementType": [Function],
             "expirationTime": 0,
-            "firstEffect": null,
+            "firstEffect": FiberNode {
+              "_debugID": 51,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                "lineNumber": 56,
+              },
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": FiberNode {
+                "_debugID": 52,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                  "lineNumber": 57,
+                },
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": null,
+                "childExpirationTime": 0,
+                "contextDependencies": null,
+                "effectTag": 0,
+                "elementType": "h4",
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": "选择月份",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": "选择月份",
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": FiberNode {
+                  "_debugID": 53,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": Object {
+                    "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                    "lineNumber": 58,
+                  },
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": null,
+                  "childExpirationTime": 0,
+                  "contextDependencies": null,
+                  "effectTag": 0,
+                  "elementType": "button",
+                  "expirationTime": 0,
+                  "firstEffect": null,
+                  "index": 1,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": "2018年 08月",
+                    "className": "btn btn-lg btn-secondary dropdown-toggle",
+                    "onClick": [Function],
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "children": "2018年 08月",
+                    "className": "btn btn-lg btn-secondary dropdown-toggle",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": <button
+                    class="btn btn-lg btn-secondary dropdown-toggle"
+                  >
+                    2018年 08月
+                  </button>,
+                  "tag": 5,
+                  "treeBaseDuration": 0,
+                  "type": "button",
+                  "updateQueue": null,
+                },
+                "stateNode": <h4>
+                  选择月份
+                </h4>,
+                "tag": 5,
+                "treeBaseDuration": 0,
+                "type": "h4",
+                "updateQueue": null,
+              },
+              "childExpirationTime": 0,
+              "contextDependencies": null,
+              "effectTag": 128,
+              "elementType": "div",
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": Array [
+                  <h4>
+                    选择月份
+                  </h4>,
+                  <button
+                    className="btn btn-lg btn-secondary dropdown-toggle"
+                    onClick={[Function]}
+                  >
+                    2018年 08月
+                  </button>,
+                  false,
+                ],
+                "className": "dropdown month-picker-component",
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": [Circular],
+              "pendingProps": Object {
+                "children": Array [
+                  <h4>
+                    选择月份
+                  </h4>,
+                  <button
+                    className="btn btn-lg btn-secondary dropdown-toggle"
+                    onClick={[Function]}
+                  >
+                    2018年 08月
+                  </button>,
+                  false,
+                ],
+                "className": "dropdown month-picker-component",
+              },
+              "ref": [Function],
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": <div
+                class="dropdown month-picker-component"
+              >
+                <h4>
+                  选择月份
+                </h4>
+                <button
+                  class="btn btn-lg btn-secondary dropdown-toggle"
+                >
+                  2018年 08月
+                </button>
+              </div>,
+              "tag": 5,
+              "treeBaseDuration": 0,
+              "type": "div",
+              "updateQueue": null,
+            },
             "index": 0,
             "key": null,
-            "lastEffect": null,
+            "lastEffect": [Circular],
             "memoizedProps": Object {
               "Component": [Function],
               "context": null,
@@ -1549,7 +4031,169 @@ ReactWrapper {
               "effectTag": 32,
               "elementType": null,
               "expirationTime": 0,
-              "firstEffect": [Circular],
+              "firstEffect": FiberNode {
+                "_debugID": 51,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                  "lineNumber": 56,
+                },
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": FiberNode {
+                  "_debugID": 52,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": Object {
+                    "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                    "lineNumber": 57,
+                  },
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": null,
+                  "childExpirationTime": 0,
+                  "contextDependencies": null,
+                  "effectTag": 0,
+                  "elementType": "h4",
+                  "expirationTime": 0,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": "选择月份",
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "children": "选择月份",
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": FiberNode {
+                    "_debugID": 53,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": Object {
+                      "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                      "lineNumber": 58,
+                    },
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": null,
+                    "child": null,
+                    "childExpirationTime": 0,
+                    "contextDependencies": null,
+                    "effectTag": 0,
+                    "elementType": "button",
+                    "expirationTime": 0,
+                    "firstEffect": null,
+                    "index": 1,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "children": "2018年 08月",
+                      "className": "btn btn-lg btn-secondary dropdown-toggle",
+                      "onClick": [Function],
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "children": "2018年 08月",
+                      "className": "btn btn-lg btn-secondary dropdown-toggle",
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "selfBaseDuration": 0,
+                    "sibling": null,
+                    "stateNode": <button
+                      class="btn btn-lg btn-secondary dropdown-toggle"
+                    >
+                      2018年 08月
+                    </button>,
+                    "tag": 5,
+                    "treeBaseDuration": 0,
+                    "type": "button",
+                    "updateQueue": null,
+                  },
+                  "stateNode": <h4>
+                    选择月份
+                  </h4>,
+                  "tag": 5,
+                  "treeBaseDuration": 0,
+                  "type": "h4",
+                  "updateQueue": null,
+                },
+                "childExpirationTime": 0,
+                "contextDependencies": null,
+                "effectTag": 128,
+                "elementType": "div",
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": Array [
+                    <h4>
+                      选择月份
+                    </h4>,
+                    <button
+                      className="btn btn-lg btn-secondary dropdown-toggle"
+                      onClick={[Function]}
+                    >
+                      2018年 08月
+                    </button>,
+                    false,
+                  ],
+                  "className": "dropdown month-picker-component",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": [Circular],
+                "pendingProps": Object {
+                  "children": Array [
+                    <h4>
+                      选择月份
+                    </h4>,
+                    <button
+                      className="btn btn-lg btn-secondary dropdown-toggle"
+                      onClick={[Function]}
+                    >
+                      2018年 08月
+                    </button>,
+                    false,
+                  ],
+                  "className": "dropdown month-picker-component",
+                },
+                "ref": [Function],
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": <div
+                  class="dropdown month-picker-component"
+                >
+                  <h4>
+                    选择月份
+                  </h4>
+                  <button
+                    class="btn btn-lg btn-secondary dropdown-toggle"
+                  >
+                    2018年 08月
+                  </button>
+                </div>,
+                "tag": 5,
+                "treeBaseDuration": 0,
+                "type": "div",
+                "updateQueue": null,
+              },
               "index": 0,
               "key": null,
               "lastEffect": [Circular],
@@ -1780,7 +4424,169 @@ ReactWrapper {
               "effectTag": 32,
               "elementType": null,
               "expirationTime": 0,
-              "firstEffect": [Circular],
+              "firstEffect": FiberNode {
+                "_debugID": 51,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                  "lineNumber": 56,
+                },
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": FiberNode {
+                  "_debugID": 52,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": Object {
+                    "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                    "lineNumber": 57,
+                  },
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": null,
+                  "childExpirationTime": 0,
+                  "contextDependencies": null,
+                  "effectTag": 0,
+                  "elementType": "h4",
+                  "expirationTime": 0,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": "选择月份",
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "children": "选择月份",
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": FiberNode {
+                    "_debugID": 53,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": Object {
+                      "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                      "lineNumber": 58,
+                    },
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": null,
+                    "child": null,
+                    "childExpirationTime": 0,
+                    "contextDependencies": null,
+                    "effectTag": 0,
+                    "elementType": "button",
+                    "expirationTime": 0,
+                    "firstEffect": null,
+                    "index": 1,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "children": "2018年 08月",
+                      "className": "btn btn-lg btn-secondary dropdown-toggle",
+                      "onClick": [Function],
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "children": "2018年 08月",
+                      "className": "btn btn-lg btn-secondary dropdown-toggle",
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "selfBaseDuration": 0,
+                    "sibling": null,
+                    "stateNode": <button
+                      class="btn btn-lg btn-secondary dropdown-toggle"
+                    >
+                      2018年 08月
+                    </button>,
+                    "tag": 5,
+                    "treeBaseDuration": 0,
+                    "type": "button",
+                    "updateQueue": null,
+                  },
+                  "stateNode": <h4>
+                    选择月份
+                  </h4>,
+                  "tag": 5,
+                  "treeBaseDuration": 0,
+                  "type": "h4",
+                  "updateQueue": null,
+                },
+                "childExpirationTime": 0,
+                "contextDependencies": null,
+                "effectTag": 128,
+                "elementType": "div",
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": Array [
+                    <h4>
+                      选择月份
+                    </h4>,
+                    <button
+                      className="btn btn-lg btn-secondary dropdown-toggle"
+                      onClick={[Function]}
+                    >
+                      2018年 08月
+                    </button>,
+                    false,
+                  ],
+                  "className": "dropdown month-picker-component",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": [Circular],
+                "pendingProps": Object {
+                  "children": Array [
+                    <h4>
+                      选择月份
+                    </h4>,
+                    <button
+                      className="btn btn-lg btn-secondary dropdown-toggle"
+                      onClick={[Function]}
+                    >
+                      2018年 08月
+                    </button>,
+                    false,
+                  ],
+                  "className": "dropdown month-picker-component",
+                },
+                "ref": [Function],
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": <div
+                  class="dropdown month-picker-component"
+                >
+                  <h4>
+                    选择月份
+                  </h4>
+                  <button
+                    class="btn btn-lg btn-secondary dropdown-toggle"
+                  >
+                    2018年 08月
+                  </button>
+                </div>,
+                "tag": 5,
+                "treeBaseDuration": 0,
+                "type": "div",
+                "updateQueue": null,
+              },
               "index": 0,
               "key": null,
               "lastEffect": [Circular],
@@ -1917,7 +4723,7 @@ ReactWrapper {
             "_debugOwner": [Circular],
             "_debugSource": Object {
               "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
-              "lineNumber": 40,
+              "lineNumber": 56,
             },
             "actualDuration": 0,
             "actualStartTime": -1,
@@ -1928,7 +4734,7 @@ ReactWrapper {
               "_debugOwner": [Circular],
               "_debugSource": Object {
                 "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
-                "lineNumber": 41,
+                "lineNumber": 57,
               },
               "actualDuration": 0,
               "actualStartTime": -1,
@@ -1961,7 +4767,7 @@ ReactWrapper {
                 "_debugOwner": [Circular],
                 "_debugSource": Object {
                   "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
-                  "lineNumber": 42,
+                  "lineNumber": 58,
                 },
                 "actualDuration": 0,
                 "actualStartTime": -1,
@@ -2013,7 +4819,7 @@ ReactWrapper {
             },
             "childExpirationTime": 0,
             "contextDependencies": null,
-            "effectTag": 0,
+            "effectTag": 128,
             "elementType": "div",
             "expirationTime": 0,
             "firstEffect": null,
@@ -2037,7 +4843,7 @@ ReactWrapper {
             },
             "memoizedState": null,
             "mode": 0,
-            "nextEffect": null,
+            "nextEffect": [Circular],
             "pendingProps": Object {
               "children": Array [
                 <h4>
@@ -2053,7 +4859,7 @@ ReactWrapper {
               ],
               "className": "dropdown month-picker-component",
             },
-            "ref": null,
+            "ref": [Function],
             "return": [Circular],
             "selfBaseDuration": 0,
             "sibling": null,
@@ -2076,13 +4882,337 @@ ReactWrapper {
           },
           "childExpirationTime": 0,
           "contextDependencies": null,
-          "effectTag": 1,
+          "effectTag": 5,
           "elementType": [Function],
           "expirationTime": 0,
-          "firstEffect": null,
+          "firstEffect": FiberNode {
+            "_debugID": 51,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": [Circular],
+            "_debugSource": Object {
+              "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+              "lineNumber": 56,
+            },
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": null,
+            "child": FiberNode {
+              "_debugID": 52,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                "lineNumber": 57,
+              },
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": null,
+              "childExpirationTime": 0,
+              "contextDependencies": null,
+              "effectTag": 0,
+              "elementType": "h4",
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": "选择月份",
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "children": "选择月份",
+              },
+              "ref": null,
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": FiberNode {
+                "_debugID": 53,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                  "lineNumber": 58,
+                },
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": null,
+                "childExpirationTime": 0,
+                "contextDependencies": null,
+                "effectTag": 0,
+                "elementType": "button",
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 1,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": "2018年 08月",
+                  "className": "btn btn-lg btn-secondary dropdown-toggle",
+                  "onClick": [Function],
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": "2018年 08月",
+                  "className": "btn btn-lg btn-secondary dropdown-toggle",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": <button
+                  class="btn btn-lg btn-secondary dropdown-toggle"
+                >
+                  2018年 08月
+                </button>,
+                "tag": 5,
+                "treeBaseDuration": 0,
+                "type": "button",
+                "updateQueue": null,
+              },
+              "stateNode": <h4>
+                选择月份
+              </h4>,
+              "tag": 5,
+              "treeBaseDuration": 0,
+              "type": "h4",
+              "updateQueue": null,
+            },
+            "childExpirationTime": 0,
+            "contextDependencies": null,
+            "effectTag": 128,
+            "elementType": "div",
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "children": Array [
+                <h4>
+                  选择月份
+                </h4>,
+                <button
+                  className="btn btn-lg btn-secondary dropdown-toggle"
+                  onClick={[Function]}
+                >
+                  2018年 08月
+                </button>,
+                false,
+              ],
+              "className": "dropdown month-picker-component",
+            },
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": [Circular],
+            "pendingProps": Object {
+              "children": Array [
+                <h4>
+                  选择月份
+                </h4>,
+                <button
+                  className="btn btn-lg btn-secondary dropdown-toggle"
+                  onClick={[Function]}
+                >
+                  2018年 08月
+                </button>,
+                false,
+              ],
+              "className": "dropdown month-picker-component",
+            },
+            "ref": [Function],
+            "return": [Circular],
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": <div
+              class="dropdown month-picker-component"
+            >
+              <h4>
+                选择月份
+              </h4>
+              <button
+                class="btn btn-lg btn-secondary dropdown-toggle"
+              >
+                2018年 08月
+              </button>
+            </div>,
+            "tag": 5,
+            "treeBaseDuration": 0,
+            "type": "div",
+            "updateQueue": null,
+          },
           "index": 0,
           "key": null,
-          "lastEffect": null,
+          "lastEffect": FiberNode {
+            "_debugID": 51,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": [Circular],
+            "_debugSource": Object {
+              "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+              "lineNumber": 56,
+            },
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": null,
+            "child": FiberNode {
+              "_debugID": 52,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                "lineNumber": 57,
+              },
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": null,
+              "childExpirationTime": 0,
+              "contextDependencies": null,
+              "effectTag": 0,
+              "elementType": "h4",
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": "选择月份",
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "children": "选择月份",
+              },
+              "ref": null,
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": FiberNode {
+                "_debugID": 53,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                  "lineNumber": 58,
+                },
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": null,
+                "childExpirationTime": 0,
+                "contextDependencies": null,
+                "effectTag": 0,
+                "elementType": "button",
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 1,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": "2018年 08月",
+                  "className": "btn btn-lg btn-secondary dropdown-toggle",
+                  "onClick": [Function],
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": "2018年 08月",
+                  "className": "btn btn-lg btn-secondary dropdown-toggle",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": <button
+                  class="btn btn-lg btn-secondary dropdown-toggle"
+                >
+                  2018年 08月
+                </button>,
+                "tag": 5,
+                "treeBaseDuration": 0,
+                "type": "button",
+                "updateQueue": null,
+              },
+              "stateNode": <h4>
+                选择月份
+              </h4>,
+              "tag": 5,
+              "treeBaseDuration": 0,
+              "type": "h4",
+              "updateQueue": null,
+            },
+            "childExpirationTime": 0,
+            "contextDependencies": null,
+            "effectTag": 128,
+            "elementType": "div",
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "children": Array [
+                <h4>
+                  选择月份
+                </h4>,
+                <button
+                  className="btn btn-lg btn-secondary dropdown-toggle"
+                  onClick={[Function]}
+                >
+                  2018年 08月
+                </button>,
+                false,
+              ],
+              "className": "dropdown month-picker-component",
+            },
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": [Circular],
+            "pendingProps": Object {
+              "children": Array [
+                <h4>
+                  选择月份
+                </h4>,
+                <button
+                  className="btn btn-lg btn-secondary dropdown-toggle"
+                  onClick={[Function]}
+                >
+                  2018年 08月
+                </button>,
+                false,
+              ],
+              "className": "dropdown month-picker-component",
+            },
+            "ref": [Function],
+            "return": [Circular],
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": <div
+              class="dropdown month-picker-component"
+            >
+              <h4>
+                选择月份
+              </h4>
+              <button
+                class="btn btn-lg btn-secondary dropdown-toggle"
+              >
+                2018年 08月
+              </button>
+            </div>,
+            "tag": 5,
+            "treeBaseDuration": 0,
+            "type": "div",
+            "updateQueue": null,
+          },
           "memoizedProps": Object {
             "month": 8,
             "onChange": [MockFunction],
@@ -2093,14 +5223,7 @@ ReactWrapper {
             "selectedYear": 2018,
           },
           "mode": 0,
-          "nextEffect": null,
-          "pendingProps": Object {
-            "month": 8,
-            "onChange": [MockFunction],
-            "year": 2018,
-          },
-          "ref": null,
-          "return": FiberNode {
+          "nextEffect": FiberNode {
             "_debugID": 49,
             "_debugIsCurrentlyTiming": false,
             "_debugOwner": null,
@@ -2114,10 +5237,172 @@ ReactWrapper {
             "effectTag": 1,
             "elementType": [Function],
             "expirationTime": 0,
-            "firstEffect": null,
+            "firstEffect": FiberNode {
+              "_debugID": 51,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                "lineNumber": 56,
+              },
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": FiberNode {
+                "_debugID": 52,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                  "lineNumber": 57,
+                },
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": null,
+                "childExpirationTime": 0,
+                "contextDependencies": null,
+                "effectTag": 0,
+                "elementType": "h4",
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": "选择月份",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": "选择月份",
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": FiberNode {
+                  "_debugID": 53,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": Object {
+                    "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                    "lineNumber": 58,
+                  },
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": null,
+                  "childExpirationTime": 0,
+                  "contextDependencies": null,
+                  "effectTag": 0,
+                  "elementType": "button",
+                  "expirationTime": 0,
+                  "firstEffect": null,
+                  "index": 1,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": "2018年 08月",
+                    "className": "btn btn-lg btn-secondary dropdown-toggle",
+                    "onClick": [Function],
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "children": "2018年 08月",
+                    "className": "btn btn-lg btn-secondary dropdown-toggle",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": <button
+                    class="btn btn-lg btn-secondary dropdown-toggle"
+                  >
+                    2018年 08月
+                  </button>,
+                  "tag": 5,
+                  "treeBaseDuration": 0,
+                  "type": "button",
+                  "updateQueue": null,
+                },
+                "stateNode": <h4>
+                  选择月份
+                </h4>,
+                "tag": 5,
+                "treeBaseDuration": 0,
+                "type": "h4",
+                "updateQueue": null,
+              },
+              "childExpirationTime": 0,
+              "contextDependencies": null,
+              "effectTag": 128,
+              "elementType": "div",
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": Array [
+                  <h4>
+                    选择月份
+                  </h4>,
+                  <button
+                    className="btn btn-lg btn-secondary dropdown-toggle"
+                    onClick={[Function]}
+                  >
+                    2018年 08月
+                  </button>,
+                  false,
+                ],
+                "className": "dropdown month-picker-component",
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": [Circular],
+              "pendingProps": Object {
+                "children": Array [
+                  <h4>
+                    选择月份
+                  </h4>,
+                  <button
+                    className="btn btn-lg btn-secondary dropdown-toggle"
+                    onClick={[Function]}
+                  >
+                    2018年 08月
+                  </button>,
+                  false,
+                ],
+                "className": "dropdown month-picker-component",
+              },
+              "ref": [Function],
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": <div
+                class="dropdown month-picker-component"
+              >
+                <h4>
+                  选择月份
+                </h4>
+                <button
+                  class="btn btn-lg btn-secondary dropdown-toggle"
+                >
+                  2018年 08月
+                </button>
+              </div>,
+              "tag": 5,
+              "treeBaseDuration": 0,
+              "type": "div",
+              "updateQueue": null,
+            },
             "index": 0,
             "key": null,
-            "lastEffect": null,
+            "lastEffect": [Circular],
             "memoizedProps": Object {
               "Component": [Function],
               "context": null,
@@ -2268,7 +5553,169 @@ ReactWrapper {
               "effectTag": 32,
               "elementType": null,
               "expirationTime": 0,
-              "firstEffect": [Circular],
+              "firstEffect": FiberNode {
+                "_debugID": 51,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                  "lineNumber": 56,
+                },
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": FiberNode {
+                  "_debugID": 52,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": Object {
+                    "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                    "lineNumber": 57,
+                  },
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": null,
+                  "childExpirationTime": 0,
+                  "contextDependencies": null,
+                  "effectTag": 0,
+                  "elementType": "h4",
+                  "expirationTime": 0,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": "选择月份",
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "children": "选择月份",
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": FiberNode {
+                    "_debugID": 53,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": Object {
+                      "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                      "lineNumber": 58,
+                    },
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": null,
+                    "child": null,
+                    "childExpirationTime": 0,
+                    "contextDependencies": null,
+                    "effectTag": 0,
+                    "elementType": "button",
+                    "expirationTime": 0,
+                    "firstEffect": null,
+                    "index": 1,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "children": "2018年 08月",
+                      "className": "btn btn-lg btn-secondary dropdown-toggle",
+                      "onClick": [Function],
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "children": "2018年 08月",
+                      "className": "btn btn-lg btn-secondary dropdown-toggle",
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "selfBaseDuration": 0,
+                    "sibling": null,
+                    "stateNode": <button
+                      class="btn btn-lg btn-secondary dropdown-toggle"
+                    >
+                      2018年 08月
+                    </button>,
+                    "tag": 5,
+                    "treeBaseDuration": 0,
+                    "type": "button",
+                    "updateQueue": null,
+                  },
+                  "stateNode": <h4>
+                    选择月份
+                  </h4>,
+                  "tag": 5,
+                  "treeBaseDuration": 0,
+                  "type": "h4",
+                  "updateQueue": null,
+                },
+                "childExpirationTime": 0,
+                "contextDependencies": null,
+                "effectTag": 128,
+                "elementType": "div",
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": Array [
+                    <h4>
+                      选择月份
+                    </h4>,
+                    <button
+                      className="btn btn-lg btn-secondary dropdown-toggle"
+                      onClick={[Function]}
+                    >
+                      2018年 08月
+                    </button>,
+                    false,
+                  ],
+                  "className": "dropdown month-picker-component",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": [Circular],
+                "pendingProps": Object {
+                  "children": Array [
+                    <h4>
+                      选择月份
+                    </h4>,
+                    <button
+                      className="btn btn-lg btn-secondary dropdown-toggle"
+                      onClick={[Function]}
+                    >
+                      2018年 08月
+                    </button>,
+                    false,
+                  ],
+                  "className": "dropdown month-picker-component",
+                },
+                "ref": [Function],
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": <div
+                  class="dropdown month-picker-component"
+                >
+                  <h4>
+                    选择月份
+                  </h4>
+                  <button
+                    class="btn btn-lg btn-secondary dropdown-toggle"
+                  >
+                    2018年 08月
+                  </button>
+                </div>,
+                "tag": 5,
+                "treeBaseDuration": 0,
+                "type": "div",
+                "updateQueue": null,
+              },
               "index": 0,
               "key": null,
               "lastEffect": [Circular],
@@ -2499,7 +5946,1187 @@ ReactWrapper {
               "effectTag": 32,
               "elementType": null,
               "expirationTime": 0,
-              "firstEffect": [Circular],
+              "firstEffect": FiberNode {
+                "_debugID": 51,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                  "lineNumber": 56,
+                },
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": FiberNode {
+                  "_debugID": 52,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": Object {
+                    "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                    "lineNumber": 57,
+                  },
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": null,
+                  "childExpirationTime": 0,
+                  "contextDependencies": null,
+                  "effectTag": 0,
+                  "elementType": "h4",
+                  "expirationTime": 0,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": "选择月份",
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "children": "选择月份",
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": FiberNode {
+                    "_debugID": 53,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": Object {
+                      "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                      "lineNumber": 58,
+                    },
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": null,
+                    "child": null,
+                    "childExpirationTime": 0,
+                    "contextDependencies": null,
+                    "effectTag": 0,
+                    "elementType": "button",
+                    "expirationTime": 0,
+                    "firstEffect": null,
+                    "index": 1,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "children": "2018年 08月",
+                      "className": "btn btn-lg btn-secondary dropdown-toggle",
+                      "onClick": [Function],
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "children": "2018年 08月",
+                      "className": "btn btn-lg btn-secondary dropdown-toggle",
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "selfBaseDuration": 0,
+                    "sibling": null,
+                    "stateNode": <button
+                      class="btn btn-lg btn-secondary dropdown-toggle"
+                    >
+                      2018年 08月
+                    </button>,
+                    "tag": 5,
+                    "treeBaseDuration": 0,
+                    "type": "button",
+                    "updateQueue": null,
+                  },
+                  "stateNode": <h4>
+                    选择月份
+                  </h4>,
+                  "tag": 5,
+                  "treeBaseDuration": 0,
+                  "type": "h4",
+                  "updateQueue": null,
+                },
+                "childExpirationTime": 0,
+                "contextDependencies": null,
+                "effectTag": 128,
+                "elementType": "div",
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": Array [
+                    <h4>
+                      选择月份
+                    </h4>,
+                    <button
+                      className="btn btn-lg btn-secondary dropdown-toggle"
+                      onClick={[Function]}
+                    >
+                      2018年 08月
+                    </button>,
+                    false,
+                  ],
+                  "className": "dropdown month-picker-component",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": [Circular],
+                "pendingProps": Object {
+                  "children": Array [
+                    <h4>
+                      选择月份
+                    </h4>,
+                    <button
+                      className="btn btn-lg btn-secondary dropdown-toggle"
+                      onClick={[Function]}
+                    >
+                      2018年 08月
+                    </button>,
+                    false,
+                  ],
+                  "className": "dropdown month-picker-component",
+                },
+                "ref": [Function],
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": <div
+                  class="dropdown month-picker-component"
+                >
+                  <h4>
+                    选择月份
+                  </h4>
+                  <button
+                    class="btn btn-lg btn-secondary dropdown-toggle"
+                  >
+                    2018年 08月
+                  </button>
+                </div>,
+                "tag": 5,
+                "treeBaseDuration": 0,
+                "type": "div",
+                "updateQueue": null,
+              },
+              "index": 0,
+              "key": null,
+              "lastEffect": [Circular],
+              "memoizedProps": null,
+              "memoizedState": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={
+                    Object {
+                      "month": 8,
+                      "onChange": [MockFunction],
+                      "year": 2018,
+                    }
+                  }
+                />,
+              },
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": null,
+              "ref": null,
+              "return": null,
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": Object {
+                "containerInfo": <div>
+                  <div
+                    class="dropdown month-picker-component"
+                  >
+                    <h4>
+                      选择月份
+                    </h4>
+                    <button
+                      class="btn btn-lg btn-secondary dropdown-toggle"
+                    >
+                      2018年 08月
+                    </button>
+                  </div>
+                </div>,
+                "context": Object {},
+                "current": [Circular],
+                "didError": false,
+                "earliestPendingTime": 0,
+                "earliestSuspendedTime": 0,
+                "expirationTime": 0,
+                "finishedWork": null,
+                "firstBatch": null,
+                "hydrate": false,
+                "interactionThreadID": 12,
+                "latestPendingTime": 0,
+                "latestPingedTime": 0,
+                "latestSuspendedTime": 0,
+                "memoizedInteractions": Set {},
+                "nextExpirationTimeToWorkOn": 0,
+                "nextScheduledRoot": null,
+                "pendingChildren": null,
+                "pendingCommitExpirationTime": 0,
+                "pendingContext": null,
+                "pendingInteractionMap": Map {},
+                "pingCache": null,
+                "timeoutHandle": -1,
+              },
+              "tag": 3,
+              "treeBaseDuration": 0,
+              "type": null,
+              "updateQueue": Object {
+                "baseState": Object {
+                  "element": <WrapperComponent
+                    Component={[Function]}
+                    context={null}
+                    props={
+                      Object {
+                        "month": 8,
+                        "onChange": [MockFunction],
+                        "year": 2018,
+                      }
+                    }
+                  />,
+                },
+                "firstCapturedEffect": null,
+                "firstCapturedUpdate": null,
+                "firstEffect": null,
+                "firstUpdate": null,
+                "lastCapturedEffect": null,
+                "lastCapturedUpdate": null,
+                "lastEffect": null,
+                "lastUpdate": null,
+              },
+            },
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": WrapperComponent {
+              "_reactInternalFiber": [Circular],
+              "_reactInternalInstance": Object {},
+              "context": Object {},
+              "props": Object {
+                "Component": [Function],
+                "context": null,
+                "props": Object {
+                  "month": 8,
+                  "onChange": [MockFunction],
+                  "year": 2018,
+                },
+              },
+              "refs": Object {},
+              "state": Object {
+                "context": null,
+                "mount": true,
+                "props": Object {
+                  "month": 8,
+                  "onChange": [MockFunction],
+                  "year": 2018,
+                },
+              },
+              "updater": Object {
+                "enqueueForceUpdate": [Function],
+                "enqueueReplaceState": [Function],
+                "enqueueSetState": [Function],
+                "isMounted": [Function],
+              },
+            },
+            "tag": 1,
+            "treeBaseDuration": 0,
+            "type": [Function],
+            "updateQueue": null,
+          },
+          "pendingProps": Object {
+            "month": 8,
+            "onChange": [MockFunction],
+            "year": 2018,
+          },
+          "ref": null,
+          "return": FiberNode {
+            "_debugID": 49,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": null,
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": null,
+            "child": [Circular],
+            "childExpirationTime": 0,
+            "contextDependencies": null,
+            "effectTag": 1,
+            "elementType": [Function],
+            "expirationTime": 0,
+            "firstEffect": FiberNode {
+              "_debugID": 51,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                "lineNumber": 56,
+              },
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": FiberNode {
+                "_debugID": 52,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                  "lineNumber": 57,
+                },
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": null,
+                "childExpirationTime": 0,
+                "contextDependencies": null,
+                "effectTag": 0,
+                "elementType": "h4",
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": "选择月份",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": "选择月份",
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": FiberNode {
+                  "_debugID": 53,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": Object {
+                    "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                    "lineNumber": 58,
+                  },
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": null,
+                  "childExpirationTime": 0,
+                  "contextDependencies": null,
+                  "effectTag": 0,
+                  "elementType": "button",
+                  "expirationTime": 0,
+                  "firstEffect": null,
+                  "index": 1,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": "2018年 08月",
+                    "className": "btn btn-lg btn-secondary dropdown-toggle",
+                    "onClick": [Function],
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "children": "2018年 08月",
+                    "className": "btn btn-lg btn-secondary dropdown-toggle",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": <button
+                    class="btn btn-lg btn-secondary dropdown-toggle"
+                  >
+                    2018年 08月
+                  </button>,
+                  "tag": 5,
+                  "treeBaseDuration": 0,
+                  "type": "button",
+                  "updateQueue": null,
+                },
+                "stateNode": <h4>
+                  选择月份
+                </h4>,
+                "tag": 5,
+                "treeBaseDuration": 0,
+                "type": "h4",
+                "updateQueue": null,
+              },
+              "childExpirationTime": 0,
+              "contextDependencies": null,
+              "effectTag": 128,
+              "elementType": "div",
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": Array [
+                  <h4>
+                    选择月份
+                  </h4>,
+                  <button
+                    className="btn btn-lg btn-secondary dropdown-toggle"
+                    onClick={[Function]}
+                  >
+                    2018年 08月
+                  </button>,
+                  false,
+                ],
+                "className": "dropdown month-picker-component",
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": [Circular],
+              "pendingProps": Object {
+                "children": Array [
+                  <h4>
+                    选择月份
+                  </h4>,
+                  <button
+                    className="btn btn-lg btn-secondary dropdown-toggle"
+                    onClick={[Function]}
+                  >
+                    2018年 08月
+                  </button>,
+                  false,
+                ],
+                "className": "dropdown month-picker-component",
+              },
+              "ref": [Function],
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": <div
+                class="dropdown month-picker-component"
+              >
+                <h4>
+                  选择月份
+                </h4>
+                <button
+                  class="btn btn-lg btn-secondary dropdown-toggle"
+                >
+                  2018年 08月
+                </button>
+              </div>,
+              "tag": 5,
+              "treeBaseDuration": 0,
+              "type": "div",
+              "updateQueue": null,
+            },
+            "index": 0,
+            "key": null,
+            "lastEffect": [Circular],
+            "memoizedProps": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {
+                "month": 8,
+                "onChange": [MockFunction],
+                "year": 2018,
+              },
+            },
+            "memoizedState": Object {
+              "context": null,
+              "mount": true,
+              "props": Object {
+                "month": 8,
+                "onChange": [MockFunction],
+                "year": 2018,
+              },
+            },
+            "mode": 0,
+            "nextEffect": FiberNode {
+              "_debugID": 47,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": FiberNode {
+                "_debugID": 47,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": null,
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": [Circular],
+                "child": null,
+                "childExpirationTime": 0,
+                "contextDependencies": null,
+                "effectTag": 0,
+                "elementType": null,
+                "expirationTime": 1073741823,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": null,
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": null,
+                "ref": null,
+                "return": null,
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": Object {
+                  "containerInfo": <div>
+                    <div
+                      class="dropdown month-picker-component"
+                    >
+                      <h4>
+                        选择月份
+                      </h4>
+                      <button
+                        class="btn btn-lg btn-secondary dropdown-toggle"
+                      >
+                        2018年 08月
+                      </button>
+                    </div>
+                  </div>,
+                  "context": Object {},
+                  "current": [Circular],
+                  "didError": false,
+                  "earliestPendingTime": 0,
+                  "earliestSuspendedTime": 0,
+                  "expirationTime": 0,
+                  "finishedWork": null,
+                  "firstBatch": null,
+                  "hydrate": false,
+                  "interactionThreadID": 12,
+                  "latestPendingTime": 0,
+                  "latestPingedTime": 0,
+                  "latestSuspendedTime": 0,
+                  "memoizedInteractions": Set {},
+                  "nextExpirationTimeToWorkOn": 0,
+                  "nextScheduledRoot": null,
+                  "pendingChildren": null,
+                  "pendingCommitExpirationTime": 0,
+                  "pendingContext": null,
+                  "pendingInteractionMap": Map {},
+                  "pingCache": null,
+                  "timeoutHandle": -1,
+                },
+                "tag": 3,
+                "treeBaseDuration": 0,
+                "type": null,
+                "updateQueue": Object {
+                  "baseState": null,
+                  "firstCapturedEffect": null,
+                  "firstCapturedUpdate": null,
+                  "firstEffect": null,
+                  "firstUpdate": Object {
+                    "callback": null,
+                    "expirationTime": 1073741823,
+                    "next": null,
+                    "nextEffect": null,
+                    "payload": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={
+                          Object {
+                            "month": 8,
+                            "onChange": [MockFunction],
+                            "year": 2018,
+                          }
+                        }
+                      />,
+                    },
+                    "tag": 0,
+                  },
+                  "lastCapturedEffect": null,
+                  "lastCapturedUpdate": null,
+                  "lastEffect": null,
+                  "lastUpdate": Object {
+                    "callback": null,
+                    "expirationTime": 1073741823,
+                    "next": null,
+                    "nextEffect": null,
+                    "payload": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={
+                          Object {
+                            "month": 8,
+                            "onChange": [MockFunction],
+                            "year": 2018,
+                          }
+                        }
+                      />,
+                    },
+                    "tag": 0,
+                  },
+                },
+              },
+              "child": [Circular],
+              "childExpirationTime": 0,
+              "contextDependencies": null,
+              "effectTag": 32,
+              "elementType": null,
+              "expirationTime": 0,
+              "firstEffect": FiberNode {
+                "_debugID": 51,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                  "lineNumber": 56,
+                },
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": FiberNode {
+                  "_debugID": 52,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": Object {
+                    "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                    "lineNumber": 57,
+                  },
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": null,
+                  "childExpirationTime": 0,
+                  "contextDependencies": null,
+                  "effectTag": 0,
+                  "elementType": "h4",
+                  "expirationTime": 0,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": "选择月份",
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "children": "选择月份",
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": FiberNode {
+                    "_debugID": 53,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": Object {
+                      "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                      "lineNumber": 58,
+                    },
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": null,
+                    "child": null,
+                    "childExpirationTime": 0,
+                    "contextDependencies": null,
+                    "effectTag": 0,
+                    "elementType": "button",
+                    "expirationTime": 0,
+                    "firstEffect": null,
+                    "index": 1,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "children": "2018年 08月",
+                      "className": "btn btn-lg btn-secondary dropdown-toggle",
+                      "onClick": [Function],
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "children": "2018年 08月",
+                      "className": "btn btn-lg btn-secondary dropdown-toggle",
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "selfBaseDuration": 0,
+                    "sibling": null,
+                    "stateNode": <button
+                      class="btn btn-lg btn-secondary dropdown-toggle"
+                    >
+                      2018年 08月
+                    </button>,
+                    "tag": 5,
+                    "treeBaseDuration": 0,
+                    "type": "button",
+                    "updateQueue": null,
+                  },
+                  "stateNode": <h4>
+                    选择月份
+                  </h4>,
+                  "tag": 5,
+                  "treeBaseDuration": 0,
+                  "type": "h4",
+                  "updateQueue": null,
+                },
+                "childExpirationTime": 0,
+                "contextDependencies": null,
+                "effectTag": 128,
+                "elementType": "div",
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": Array [
+                    <h4>
+                      选择月份
+                    </h4>,
+                    <button
+                      className="btn btn-lg btn-secondary dropdown-toggle"
+                      onClick={[Function]}
+                    >
+                      2018年 08月
+                    </button>,
+                    false,
+                  ],
+                  "className": "dropdown month-picker-component",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": [Circular],
+                "pendingProps": Object {
+                  "children": Array [
+                    <h4>
+                      选择月份
+                    </h4>,
+                    <button
+                      className="btn btn-lg btn-secondary dropdown-toggle"
+                      onClick={[Function]}
+                    >
+                      2018年 08月
+                    </button>,
+                    false,
+                  ],
+                  "className": "dropdown month-picker-component",
+                },
+                "ref": [Function],
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": <div
+                  class="dropdown month-picker-component"
+                >
+                  <h4>
+                    选择月份
+                  </h4>
+                  <button
+                    class="btn btn-lg btn-secondary dropdown-toggle"
+                  >
+                    2018年 08月
+                  </button>
+                </div>,
+                "tag": 5,
+                "treeBaseDuration": 0,
+                "type": "div",
+                "updateQueue": null,
+              },
+              "index": 0,
+              "key": null,
+              "lastEffect": [Circular],
+              "memoizedProps": null,
+              "memoizedState": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={
+                    Object {
+                      "month": 8,
+                      "onChange": [MockFunction],
+                      "year": 2018,
+                    }
+                  }
+                />,
+              },
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": null,
+              "ref": null,
+              "return": null,
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": Object {
+                "containerInfo": <div>
+                  <div
+                    class="dropdown month-picker-component"
+                  >
+                    <h4>
+                      选择月份
+                    </h4>
+                    <button
+                      class="btn btn-lg btn-secondary dropdown-toggle"
+                    >
+                      2018年 08月
+                    </button>
+                  </div>
+                </div>,
+                "context": Object {},
+                "current": [Circular],
+                "didError": false,
+                "earliestPendingTime": 0,
+                "earliestSuspendedTime": 0,
+                "expirationTime": 0,
+                "finishedWork": null,
+                "firstBatch": null,
+                "hydrate": false,
+                "interactionThreadID": 12,
+                "latestPendingTime": 0,
+                "latestPingedTime": 0,
+                "latestSuspendedTime": 0,
+                "memoizedInteractions": Set {},
+                "nextExpirationTimeToWorkOn": 0,
+                "nextScheduledRoot": null,
+                "pendingChildren": null,
+                "pendingCommitExpirationTime": 0,
+                "pendingContext": null,
+                "pendingInteractionMap": Map {},
+                "pingCache": null,
+                "timeoutHandle": -1,
+              },
+              "tag": 3,
+              "treeBaseDuration": 0,
+              "type": null,
+              "updateQueue": Object {
+                "baseState": Object {
+                  "element": <WrapperComponent
+                    Component={[Function]}
+                    context={null}
+                    props={
+                      Object {
+                        "month": 8,
+                        "onChange": [MockFunction],
+                        "year": 2018,
+                      }
+                    }
+                  />,
+                },
+                "firstCapturedEffect": null,
+                "firstCapturedUpdate": null,
+                "firstEffect": null,
+                "firstUpdate": null,
+                "lastCapturedEffect": null,
+                "lastCapturedUpdate": null,
+                "lastEffect": null,
+                "lastUpdate": null,
+              },
+            },
+            "pendingProps": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {
+                "month": 8,
+                "onChange": [MockFunction],
+                "year": 2018,
+              },
+            },
+            "ref": null,
+            "return": FiberNode {
+              "_debugID": 47,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": FiberNode {
+                "_debugID": 47,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": null,
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": [Circular],
+                "child": null,
+                "childExpirationTime": 0,
+                "contextDependencies": null,
+                "effectTag": 0,
+                "elementType": null,
+                "expirationTime": 1073741823,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": null,
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": null,
+                "ref": null,
+                "return": null,
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": Object {
+                  "containerInfo": <div>
+                    <div
+                      class="dropdown month-picker-component"
+                    >
+                      <h4>
+                        选择月份
+                      </h4>
+                      <button
+                        class="btn btn-lg btn-secondary dropdown-toggle"
+                      >
+                        2018年 08月
+                      </button>
+                    </div>
+                  </div>,
+                  "context": Object {},
+                  "current": [Circular],
+                  "didError": false,
+                  "earliestPendingTime": 0,
+                  "earliestSuspendedTime": 0,
+                  "expirationTime": 0,
+                  "finishedWork": null,
+                  "firstBatch": null,
+                  "hydrate": false,
+                  "interactionThreadID": 12,
+                  "latestPendingTime": 0,
+                  "latestPingedTime": 0,
+                  "latestSuspendedTime": 0,
+                  "memoizedInteractions": Set {},
+                  "nextExpirationTimeToWorkOn": 0,
+                  "nextScheduledRoot": null,
+                  "pendingChildren": null,
+                  "pendingCommitExpirationTime": 0,
+                  "pendingContext": null,
+                  "pendingInteractionMap": Map {},
+                  "pingCache": null,
+                  "timeoutHandle": -1,
+                },
+                "tag": 3,
+                "treeBaseDuration": 0,
+                "type": null,
+                "updateQueue": Object {
+                  "baseState": null,
+                  "firstCapturedEffect": null,
+                  "firstCapturedUpdate": null,
+                  "firstEffect": null,
+                  "firstUpdate": Object {
+                    "callback": null,
+                    "expirationTime": 1073741823,
+                    "next": null,
+                    "nextEffect": null,
+                    "payload": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={
+                          Object {
+                            "month": 8,
+                            "onChange": [MockFunction],
+                            "year": 2018,
+                          }
+                        }
+                      />,
+                    },
+                    "tag": 0,
+                  },
+                  "lastCapturedEffect": null,
+                  "lastCapturedUpdate": null,
+                  "lastEffect": null,
+                  "lastUpdate": Object {
+                    "callback": null,
+                    "expirationTime": 1073741823,
+                    "next": null,
+                    "nextEffect": null,
+                    "payload": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={
+                          Object {
+                            "month": 8,
+                            "onChange": [MockFunction],
+                            "year": 2018,
+                          }
+                        }
+                      />,
+                    },
+                    "tag": 0,
+                  },
+                },
+              },
+              "child": [Circular],
+              "childExpirationTime": 0,
+              "contextDependencies": null,
+              "effectTag": 32,
+              "elementType": null,
+              "expirationTime": 0,
+              "firstEffect": FiberNode {
+                "_debugID": 51,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                  "lineNumber": 56,
+                },
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": FiberNode {
+                  "_debugID": 52,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": Object {
+                    "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                    "lineNumber": 57,
+                  },
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": null,
+                  "childExpirationTime": 0,
+                  "contextDependencies": null,
+                  "effectTag": 0,
+                  "elementType": "h4",
+                  "expirationTime": 0,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": "选择月份",
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "children": "选择月份",
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": FiberNode {
+                    "_debugID": 53,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": Object {
+                      "fileName": "/Users/xieyadong/testReact/money-book/src/components/MonthPicker.js",
+                      "lineNumber": 58,
+                    },
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": null,
+                    "child": null,
+                    "childExpirationTime": 0,
+                    "contextDependencies": null,
+                    "effectTag": 0,
+                    "elementType": "button",
+                    "expirationTime": 0,
+                    "firstEffect": null,
+                    "index": 1,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "children": "2018年 08月",
+                      "className": "btn btn-lg btn-secondary dropdown-toggle",
+                      "onClick": [Function],
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "children": "2018年 08月",
+                      "className": "btn btn-lg btn-secondary dropdown-toggle",
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "selfBaseDuration": 0,
+                    "sibling": null,
+                    "stateNode": <button
+                      class="btn btn-lg btn-secondary dropdown-toggle"
+                    >
+                      2018年 08月
+                    </button>,
+                    "tag": 5,
+                    "treeBaseDuration": 0,
+                    "type": "button",
+                    "updateQueue": null,
+                  },
+                  "stateNode": <h4>
+                    选择月份
+                  </h4>,
+                  "tag": 5,
+                  "treeBaseDuration": 0,
+                  "type": "h4",
+                  "updateQueue": null,
+                },
+                "childExpirationTime": 0,
+                "contextDependencies": null,
+                "effectTag": 128,
+                "elementType": "div",
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": Array [
+                    <h4>
+                      选择月份
+                    </h4>,
+                    <button
+                      className="btn btn-lg btn-secondary dropdown-toggle"
+                      onClick={[Function]}
+                    >
+                      2018年 08月
+                    </button>,
+                    false,
+                  ],
+                  "className": "dropdown month-picker-component",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": [Circular],
+                "pendingProps": Object {
+                  "children": Array [
+                    <h4>
+                      选择月份
+                    </h4>,
+                    <button
+                      className="btn btn-lg btn-secondary dropdown-toggle"
+                      onClick={[Function]}
+                    >
+                      2018年 08月
+                    </button>,
+                    false,
+                  ],
+                  "className": "dropdown month-picker-component",
+                },
+                "ref": [Function],
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": <div
+                  class="dropdown month-picker-component"
+                >
+                  <h4>
+                    选择月份
+                  </h4>
+                  <button
+                    class="btn btn-lg btn-secondary dropdown-toggle"
+                  >
+                    2018年 08月
+                  </button>
+                </div>,
+                "tag": 5,
+                "treeBaseDuration": 0,
+                "type": "div",
+                "updateQueue": null,
+              },
               "index": 0,
               "key": null,
               "lastEffect": [Circular],
@@ -2636,6 +7263,19 @@ ReactWrapper {
         },
         "_reactInternalInstance": Object {},
         "context": Object {},
+        "handleClick": [Function],
+        "node": <div
+          class="dropdown month-picker-component"
+        >
+          <h4>
+            选择月份
+          </h4>
+          <button
+            class="btn btn-lg btn-secondary dropdown-toggle"
+          >
+            2018年 08月
+          </button>
+        </div>,
         "props": Object {
           "month": 8,
           "onChange": [MockFunction],
@@ -2694,7 +7334,7 @@ ReactWrapper {
           ],
           "className": "dropdown month-picker-component",
         },
-        "ref": null,
+        "ref": [Function],
         "rendered": Array [
           Object {
             "instance": <h4>
