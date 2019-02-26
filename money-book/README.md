@@ -54,8 +54,11 @@
 
 
 
-## TDD 的开发流程
+## TDD 的开发流程(反着写)
 - 分析需求
 - 编写测试用例
 - 实现组件的具体实现
+
+- npm test -t CategorySelect.js 只想检测这一个文件
+- 先执行 test 再一个一个解决test的问题
 

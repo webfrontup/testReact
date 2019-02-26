@@ -46,5 +46,10 @@ describe('test CategorySelect component', () => {
       expect(firstIcon.props().icon).toEqual(categories[0].iconName)
 
   })
+
+    
+
+
 })
+
 

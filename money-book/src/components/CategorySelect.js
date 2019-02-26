@@ -6,9 +6,27 @@ import PropTypes from "prop-types";
 class CategorySelect extends Component {
 
     render() {
-        <div className="category-select-component">
-            
-        </div>
+        const { categories } = this.props
+        return(
+            <div className="category-select-component">
+                <div className="row">
+                    {
+                        categories.map((category, index) => {
+                            return (
+                                <div className="category-item" key={index}>
+                                    <Ionicon
+                                        className="rounded-circle"
+                                        fontSize="50px"
+                                        color="#555"
+                                        icon={category.iconName}
+                                    />
+                                </div>
+                            )
+                        })
+                    }
+                </div>
+            </div>
+        )
     }
 }
 
