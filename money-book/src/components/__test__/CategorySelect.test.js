@@ -47,7 +47,22 @@ describe('test CategorySelect component', () => {
 
   })
 
-    
+  it('render selectedCategory with category item with highlight', ()=>{
+      const wrapper = mount(<CategorySelect {...props_with_category} />)
+
+      expect(wrapper.find('.category-item').first().hasClass('active')).toEqual(true)
+  })
+
+  it('click the item should add active class amd trigger the callback', ()=>{
+      const wrapper = mount(<CategorySelect {...props_with_category}/>)
+      wrapper.find('.category-item').at(1).simulate('click')
+      expect(wrapper.find(".category-item").at(1).hasClass('active')).toEqual(true);
+      expect(wrapper.find(".category-item").first().hasClass('active')).toEqual(false);
+      expect(props_with_category.onSelectCategory).toHaveBeenCalledWith(categories[1])
+  
+  })
+
+
 
 
 })
