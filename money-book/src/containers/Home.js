@@ -1,4 +1,7 @@
 import React, { Component, Fragment} from "react";
+import PropTypes from "prop-types";
+import Ionicon from "react-ionicons";
+
 import logo from "../logo.svg";
 import PriceList from "../components/PriceList";
 import ViewTab from "../components/ViewTab";
@@ -6,7 +9,9 @@ import MonthPicker from "../components/MonthPicker";
 import CreateBtn from "../components/CreateBtn";
 import TotalPrice from "../components/TotalPrice";
 import { LIST_VIEW, CHART_VIEW, TYPE_INCOME, TYPE_OUTCOME, Colors, parseToYearAndMonth, padLeft } from '../utility'
+import { Tabs, Tab } from "../components/Tabs";
 
+const tabsText = [LIST_VIEW, CHART_VIEW];
 const items = [
 	{
 		"id": 1,
@@ -106,6 +111,7 @@ class Home extends Component {
 
     render(){
         const { items, currentDate, tabView} = this.state;
+        const tabIndex = tabsText.findIndex(tabText => tabText === tabView)
         const itemsWithCategory = items.map(item => {
             item.category = categorys[item.cid]
             return item
@@ -148,6 +154,26 @@ class Home extends Component {
 					</div>
 				</header>
 				<div className="content-area py-3 px-3">
+                    <Tabs activeIndex={tabIndex} onTabChange={this.changeView}>
+                        <Tab>
+                            <Ionicon 
+                            className="rounded-circle mr-2" 
+                            fontSize="25px"
+                            color={Colors.blue}
+                            icon='ios-paper'
+                            />
+                            列表模式
+                        </Tab>
+                        <Tab>
+                            <Ionicon 
+                            className="rounded-circle mr-2" 
+                            fontSize="25px"
+                            color={Colors.blue}
+                            icon='ios-pie'
+                            />
+                            图表模式
+                        </Tab>
+                        </Tabs>
 					<ViewTab
                         activeTab={tabView}
                         onTabChange={this.changeView}
